@@ -59,9 +59,7 @@ footer-area .contact-info li a:hover,
 .top-bar .nav-right > li > a:hover {
   color: #f24e15 !important;
 }
-.btn-colored {
-  background-color: #005791 !important;
-}
+
 .btn-colored:hover {
   background-color: #005791 !important;
   border-color: #005791 !important;

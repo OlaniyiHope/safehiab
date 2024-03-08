@@ -1,0 +1,9 @@
+.scr {
+  color: white;
+  font-size: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .scr {
+    font-size: 30px; /* Adjust the font size as needed for mobile */
+  }
+}

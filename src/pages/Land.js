@@ -61,10 +61,6 @@ const Land = () => {
   return (
     <>
       <body>
-        <div class="preloader">
-          <span class="preloader-gif"></span>
-        </div>
-
         <div class="color-switcher" id="choose_color">
           {" "}
           <a href="#." class="picker_close">

@@ -12,6 +12,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the st
 import Slider from "react-slick";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import ran from "./ran.png";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -1333,7 +1334,8 @@ const Land = () => {
                         <div class="logo">
                           <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/index.html">
                             <img
-                              src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/logo-1.png"
+                              src={ran}
+                              style={{ width: "100px", height: "50px" }}
                               class="img-responsive"
                               alt=""
                             />
@@ -1484,13 +1486,11 @@ const Land = () => {
           <div class="footer-copyright">
             <div class="auto-container clearfix">
               <div class="copyright text-center">
-                Copyright 2016 &copy; Theme Created By{" "}
+                Copyright 2024 &copy; SafeHiab
                 <a
                   target="_blank"
                   href="http://themeforest.net/user/scriptsbundle/portfolio"
-                >
-                  Scriptsbundle
-                </a>{" "}
+                ></a>{" "}
                 All Rights Reserved
               </div>
             </div>

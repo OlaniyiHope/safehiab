@@ -291,46 +291,12 @@ const Header = () => {
                       </li>
                     </ul>
                   </li>
-                  <li class="dropdown">
-                    {" "}
-                    <a
-                      class="dropdown-toggle"
-                      data-hover="dropdown"
-                      data-toggle="dropdown"
-                      data-animations="fadeInUp"
-                    >
-                      CONTACT US <span class="fa fa-angle-down"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/index-5.html">
-                          Tracking Landing Page
-                        </a>{" "}
-                      </li>
-
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/index-4.html">
-                          Tracking Classic Page{" "}
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/history.html">
-                          Tracking Order History
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/online-booking.html">
-                          Cargo Booking
-                        </a>{" "}
-                      </li>
-                    </ul>
-                  </li>
                 </ul>
                 <a
                   href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/online-booking.html"
                   class="btn btn-primary pull-right"
                 >
-                  Cargo Booking
+                  Contact Us
                 </a>{" "}
               </div>
             </div>

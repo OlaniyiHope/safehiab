@@ -134,7 +134,7 @@ const Land = () => {
                 </p>
                 <a
                   className="btn btn-colored btn-lg"
-                  href="#"
+                  href="contact"
                   style={{ color: "white" }}
                 >
                   Contact Now
@@ -201,7 +201,7 @@ const Land = () => {
                 </p>
                 <a
                   className="btn btn-colored btn-lg"
-                  href="#"
+                  href="contact"
                   style={{ color: "white" }}
                 >
                   Contact Now
@@ -268,7 +268,7 @@ const Land = () => {
                 </p>
                 <a
                   className="btn btn-colored btn-lg"
-                  href="#"
+                  href="contact"
                   style={{ color: "white" }}
                 >
                   Contact Now
@@ -335,7 +335,7 @@ const Land = () => {
                 </p>
                 <a
                   className="btn btn-colored btn-lg"
-                  href="#"
+                  href="contact"
                   style={{ color: "white" }}
                 >
                   Contact Now

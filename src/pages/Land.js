@@ -12,6 +12,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the st
 import Slider from "react-slick";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { FiTruck } from "react-icons/fi"; // Assuming you're using Feather Icons
+
 import ran from "./ran.png";
 
 import "slick-carousel/slick/slick.css";
@@ -470,7 +472,7 @@ const Land = () => {
                 <div className="item">
                   <div className="services-grid">
                     <div className="icons">
-                      <i class="flaticon-ocean-transportation"></i>
+                      <FiTruck style={{ width: "150px", height: "50px" }} />
                     </div>
                     <h4>packaging and storage</h4>
                     <p>
@@ -482,7 +484,7 @@ const Land = () => {
                 <div className="item">
                   <div className="services-grid">
                     <div className="icons">
-                      <i class="flaticon-ocean-transportation"></i>
+                      <FiTruck style={{ width: "150px", height: "50px" }} />
                     </div>
                     <h4>packaging and storage</h4>
                     <p>
@@ -494,7 +496,7 @@ const Land = () => {
                 <div className="item">
                   <div className="services-grid">
                     <div className="icons">
-                      <i class="flaticon-ocean-transportation"></i>
+                      <FiTruck style={{ width: "150px", height: "50px" }} />
                     </div>
                     <h4>packaging and storage</h4>
                     <p>
@@ -506,7 +508,7 @@ const Land = () => {
                 <div className="item">
                   <div className="services-grid">
                     <div className="icons">
-                      <i class="flaticon-ocean-transportation"></i>
+                      <FiTruck style={{ width: "150px", height: "50px" }} />
                     </div>
                     <h4>packaging and storage</h4>
                     <p>

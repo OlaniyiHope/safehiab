@@ -9,6 +9,8 @@ import trust4 from "./bbc.png";
 import videoSource from "./adv.mp4";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the styles
+import { FaEnvelope, FaPhone, FaMapPin } from "react-icons/fa"; // Assuming you're using Font Awesome icons
+
 import ran from "./ran.png";
 
 import "./land.css";
@@ -33,7 +35,7 @@ const Header = () => {
             <div class="information-content">
               <div class="info-box  hidden-sm">
                 <div class="icon">
-                  <span class="icon-envelope"></span>
+                  <FaEnvelope />
                 </div>
                 <div class="text">EMAIL</div>
                 <a href="mailt:contact@scriptsbundle.com">
@@ -43,7 +45,7 @@ const Header = () => {
 
               <div class="info-box">
                 <div class="icon">
-                  <span class="icon-phone"></span>
+                  <FaPhone />
                 </div>
                 <div class="text">Call Now</div>
                 <a class="location" href="#">
@@ -52,7 +54,7 @@ const Header = () => {
               </div>
               <div class="info-box">
                 <div class="icon">
-                  <span class="icon-map-pin"></span>
+                  <FaMapPin />
                 </div>
                 <div class="text">Find Us</div>
                 <a class="location" href="#">

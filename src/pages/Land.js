@@ -119,6 +119,7 @@ const Land = () => {
               }}
             >
               <h2
+                className="htwo"
                 style={{
                   color: "white",
                   textTransform: "uppercase",
@@ -128,9 +129,10 @@ const Land = () => {
                   visibility: "inherit",
                 }}
               >
-                Ground or Air
+                We provide Efficient
               </h2>
               <h3
+                className="hthree"
                 style={{
                   color: "white",
                   textTransform: "uppercase",
@@ -140,7 +142,7 @@ const Land = () => {
                   visibility: "inherit",
                 }}
               >
-                Providing Logistic Services
+                Logistic Services
               </h3>
               <p
                 style={{ color: "white", fontSize: "17px", lineHeight: "33px" }}
@@ -168,11 +170,13 @@ const Land = () => {
                 position: "absolute",
                 top: "50%",
                 left: "50%",
+                color: "white",
                 transform: "translate(-50%, -50%)",
                 textAlign: "center",
               }}
             >
               <h2
+                className="htwo"
                 style={{
                   color: "white",
                   textTransform: "uppercase",
@@ -182,9 +186,10 @@ const Land = () => {
                   visibility: "inherit",
                 }}
               >
-                We Provide Solutions
+                Reliable Transportation Services
               </h2>
               <h3
+                className="hthree"
                 style={{
                   color: "white",
                   textTransform: "uppercase",
@@ -194,7 +199,7 @@ const Land = () => {
                   visibility: "inherit",
                 }}
               >
-                Logistic Services
+                We deliver any in Nigeria
               </h3>
               <p
                 style={{ color: "white", fontSize: "17px", lineHeight: "33px" }}
@@ -207,7 +212,7 @@ const Land = () => {
                 href="#"
                 style={{ color: "white" }}
               >
-                Request Quote
+                Contact Now
               </a>
             </div>
           </div>
@@ -222,11 +227,13 @@ const Land = () => {
                 position: "absolute",
                 top: "50%",
                 left: "50%",
+                color: "white",
                 transform: "translate(-50%, -50%)",
                 textAlign: "center",
               }}
             >
               <h2
+                className="htwo"
                 style={{
                   color: "white",
                   textTransform: "uppercase",
@@ -236,9 +243,10 @@ const Land = () => {
                   visibility: "inherit",
                 }}
               >
-                Providing Services Since 1970
+                Request a free quote
               </h2>
               <h3
+                className="hthree"
                 style={{
                   color: "white",
                   textTransform: "uppercase",
@@ -248,7 +256,7 @@ const Land = () => {
                   visibility: "inherit",
                 }}
               >
-                We Provide Solutions
+                for all your transportation needs
               </h3>
               <p
                 style={{ color: "white", fontSize: "17px", lineHeight: "33px" }}
@@ -276,11 +284,13 @@ const Land = () => {
                 position: "absolute",
                 top: "50%",
                 left: "50%",
+                color: "white",
                 transform: "translate(-50%, -50%)",
                 textAlign: "center",
               }}
             >
               <h2
+                className="htwo"
                 style={{
                   color: "white",
                   textTransform: "uppercase",
@@ -290,9 +300,10 @@ const Land = () => {
                   visibility: "inherit",
                 }}
               >
-                Ground Or Air
+                cost-effective logistics services
               </h2>
               <h3
+                className="hthree"
                 style={{
                   color: "white",
                   textTransform: "uppercase",
@@ -302,7 +313,7 @@ const Land = () => {
                   visibility: "inherit",
                 }}
               >
-                Providing Logistics Services
+                We help you achieve your business goal
               </h3>
               <p
                 style={{ color: "white", fontSize: "17px", lineHeight: "33px" }}
@@ -315,11 +326,12 @@ const Land = () => {
                 href="#"
                 style={{ color: "white" }}
               >
-                View Services
+                Contact Now
               </a>
             </div>
           </div>
         </Carousel>
+
         <div class="parallex-small ">
           <div class="container">
             <div class="row custom-padding-20 ">

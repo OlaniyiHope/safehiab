@@ -2,8 +2,38 @@
   color: white;
   font-size: 50px;
 }
+.htwo {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 82px;
+  visibility: inherit;
+}
+.hthree {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 82px;
+  visibility: inherit;
+}
 @media only screen and (max-width: 600px) {
   .scr {
     font-size: 30px; /* Adjust the font size as needed for mobile */
+  }
+  .htwo {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10px !important;
+    line-height: 2px;
+  }
+  .hthree {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px !important;
+    line-height: 2px;
   }
 }

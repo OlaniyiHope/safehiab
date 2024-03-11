@@ -87,28 +87,20 @@ const Header = () => {
                 <ul class="nav navbar-nav">
                   <li class="hidden-sm active">
                     {" "}
-                    <a href="/">
-                      Home <span class="fa fa-angle-down"></span>
-                    </a>
+                    <a href="/">Home</a>
                   </li>
                   <li class="hidden-sm">
-                    <a href="about-us">
-                      About Company <span class="fa fa-angle-down"></span>
-                    </a>
+                    <a href="about-us">About Company</a>
                   </li>
                   <li class="hidden-sm">
                     {" "}
-                    <a href="/our-services">
-                      Our Service <span class="fa fa-angle-down"></span>
-                    </a>
+                    <a href="/our-services">Our Service</a>
                   </li>
                   <li class="hidden-sm">
                     <a href="our-gallery">Gallery</a>
                   </li>
                   <li class="  hidden-sm">
-                    <a href="our-blog">
-                      Blog <span class="fa fa-angle-down"></span>
-                    </a>
+                    <a href="our-blog">Blog</a>
                   </li>
                 </ul>
                 <a href="contact" class="btn btn-primary pull-right">

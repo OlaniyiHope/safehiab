@@ -10,6 +10,8 @@ import videoSource from "./adv.mp4";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the styles
 import Slider from "react-slick";
+import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FiTruck } from "react-icons/fi"; // Assuming you're using Feather Icons
@@ -425,7 +427,8 @@ const Land = () => {
                     <div class="more-about">
                       {" "}
                       <a class="btn btn-primary btn-lg" href="#">
-                        Read More <i class="fa fa-chevron-circle-right"></i>
+                        Read More{" "}
+                        <FontAwesomeIcon icon={faChevronCircleRight} />
                       </a>{" "}
                     </div>
                   </div>
@@ -456,7 +459,8 @@ const Land = () => {
                     <div class="more-about">
                       {" "}
                       <a class="btn btn-primary btn-lg" href="#">
-                        Read More <i class="fa fa-chevron-circle-right"></i>
+                        Read More{" "}
+                        <FontAwesomeIcon icon={faChevronCircleRight} />
                       </a>{" "}
                     </div>
                   </div>
@@ -486,7 +490,8 @@ const Land = () => {
                     <div class="more-about">
                       {" "}
                       <a class="btn btn-primary btn-lg" href="#">
-                        Read More <i class="fa fa-chevron-circle-right"></i>
+                        Read More{" "}
+                        <FontAwesomeIcon icon={faChevronCircleRight} />
                       </a>{" "}
                     </div>
                   </div>

@@ -127,7 +127,7 @@ blockquote {
   border-left: 5px solid #f24e15 !important;
 }
 .parallex::before {
-  background: rgba(1, 109, 182, 0.9) !important;
+  background: #f24e15 !important;
 }
 .date > span,
 #clients .owl-prev,

@@ -182,12 +182,13 @@ const Land = () => {
                   textTransform: "uppercase",
                   fontWeight: "800",
                   fontSize: "20px",
-                  lineHeight: "62px",
+
                   visibility: "inherit",
                 }}
               >
-                Reliable Transportation Services
+                Safe and on time delivery
               </h2>
+
               <h3
                 className="hthree"
                 style={{
@@ -195,11 +196,11 @@ const Land = () => {
                   textTransform: "uppercase",
                   fontWeight: "800",
                   fontSize: "38px",
-                  lineHeight: "81px",
+
                   visibility: "inherit",
                 }}
               >
-                We deliver any in Nigeria
+                to anywhere in Nigeria
               </h3>
               <p
                 style={{ color: "white", fontSize: "17px", lineHeight: "33px" }}
@@ -243,7 +244,7 @@ const Land = () => {
                   visibility: "inherit",
                 }}
               >
-                Request a free quote
+                professional transport
               </h2>
               <h3
                 className="hthree"
@@ -256,7 +257,7 @@ const Land = () => {
                   visibility: "inherit",
                 }}
               >
-                for all your transportation needs
+                with Efficient logistic services
               </h3>
               <p
                 style={{ color: "white", fontSize: "17px", lineHeight: "33px" }}
@@ -300,7 +301,7 @@ const Land = () => {
                   visibility: "inherit",
                 }}
               >
-                cost-effective logistics services
+                Fast and secure
               </h2>
               <h3
                 className="hthree"
@@ -313,7 +314,7 @@ const Land = () => {
                   visibility: "inherit",
                 }}
               >
-                We help you achieve your business goal
+                Logistics services
               </h3>
               <p
                 style={{ color: "white", fontSize: "17px", lineHeight: "33px" }}
@@ -370,9 +371,13 @@ const Land = () => {
                     <div class="services-text">
                       <h4>Fast & Safe Delivery</h4>
                       <p>
-                        Fusce pretium nulla et purus malesuada feugiat sed vel
-                        mauris tincidunt vehicula lorem vel hendrerit justo
-                        praesent aliquam maximus imperdiet integer sagittis leo
+                        At <b>Safe Hiab</b>, we understand the importance of
+                        fast and safe delivery when it comes to transporting
+                        goods. Our priority is to ensure that your goods reaches
+                        its destination quickly and securely, without
+                        compromising on safety or quality. With our efficient
+                        logistics solutions and commitment to excellence, you
+                        can trust us to deliver your goods on time, every time.
                       </p>
                     </div>
                     <div class="more-about">
@@ -395,11 +400,15 @@ const Land = () => {
                       </a>
                     </div>
                     <div class="services-text">
-                      <h4>Internation Air Freight</h4>
+                      <h4>Commitment to Customer Satisfaction</h4>
                       <p>
-                        Fusce pretium nulla et purus malesuada feugiat sed vel
-                        mauris tincidunt vehicula lorem vel hendrerit justo
-                        praesent aliquam maximus imperdiet integer sagittis leo
+                        At <b>Safe Hiab</b>, our commitment to customer
+                        satisfaction is at the core of everything we do. We
+                        believe that every interaction with our customers is an
+                        opportunity to exceed expectations and build
+                        long-lasting relationships. Our dedicated team is
+                        passionate about ensuring that every customer's needs
+                        are not only met but exceeded.
                       </p>
                     </div>
                     <div class="more-about">
@@ -417,16 +426,19 @@ const Land = () => {
                       <a href="#">
                         <img
                           alt=""
-                          src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/3.jpg"
+                          src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/1.jpg"
                         />
                       </a>
                     </div>
                     <div class="services-text">
-                      <h4>ground shipping</h4>
+                      <h4>Experience and Expertise</h4>
                       <p>
-                        Fusce pretium nulla et purus malesuada feugiat sed vel
-                        mauris tincidunt vehicula lorem vel hendrerit justo
-                        praesent aliquam maximus imperdiet integer sagittis leo
+                        <b>Safe Hiab</b> is a professional logistic company,
+                        with experience skill the industry, such as expertise in
+                        handling specific types of goods (e.g. tanks, irons etc)
+                        or proficiency in managing complex logistical projects
+                        (e.g., international goods, supply chain management).
+                        With our experience we give our customers the best etc
                       </p>
                     </div>
                     <div class="more-about">

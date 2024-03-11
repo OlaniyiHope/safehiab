@@ -85,147 +85,31 @@ const Header = () => {
                 <ul class="nav navbar-nav">
                   <li class="hidden-sm active">
                     {" "}
-                    <a
-                      class="dropdown-toggle "
-                      data-hover="dropdown"
-                      data-toggle="dropdown"
-                      data-animations="fadeInUp"
-                      href="/"
-                    >
+                    <a href="/">
                       Home <span class="fa fa-angle-down"></span>
                     </a>
                   </li>
                   <li class="hidden-sm">
-                    <a
-                      class="dropdown-toggle"
-                      data-hover="dropdown"
-                      data-toggle="dropdown"
-                      data-animations="fadeInUp"
-                      href="/about-us"
-                    >
+                    <a href="about-us">
                       About Company <span class="fa fa-angle-down"></span>
                     </a>
                   </li>
                   <li class="hidden-sm">
                     {" "}
-                    <a
-                      class="dropdown-toggle"
-                      data-hover="dropdown"
-                      data-toggle="dropdown"
-                      data-animations="fadeInUp"
-                      href="/our-services"
-                    >
+                    <a href="/our-services">
                       Our Service <span class="fa fa-angle-down"></span>
                     </a>
                   </li>
                   <li class="hidden-sm">
                     <a href="our-gallery">Gallery</a>
                   </li>
-                  <li class="dropdown  hidden-sm">
-                    <a
-                      class="dropdown-toggle"
-                      data-hover="dropdown"
-                      data-toggle="dropdown"
-                      data-animations="fadeInUp"
-                    >
+                  <li class="  hidden-sm">
+                    <a href="our-blog">
                       Blog <span class="fa fa-angle-down"></span>
                     </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog.html">
-                          Grid View{" "}
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-1.html">
-                          Right Sidebar With 2 Column
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-2.html">
-                          Left Sidebar With 2 Column
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-3.html">
-                          Masonry Grid
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html">
-                          Post With Slider
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail-2.html">
-                          Post With Static Bg
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail-3.html">
-                          Post Full Width
-                        </a>{" "}
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="dropdown">
-                    {" "}
-                    <a
-                      class="dropdown-toggle"
-                      data-hover="dropdown"
-                      data-toggle="dropdown"
-                      data-animations="fadeInUp"
-                    >
-                      Pages <span class="fa fa-angle-down"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/404.html">
-                          Error Page
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/team.html">
-                          Our Team{" "}
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/icons.html">
-                          Icons
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/flat-icons.html">
-                          Flat Icons
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/gallery.html">
-                          Gallery
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/login.html">
-                          Sign In
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/sign-up.html">
-                          Sign Up
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/profile.html">
-                          Profile
-                        </a>
-                      </li>
-                    </ul>
                   </li>
                 </ul>
-                <a
-                  href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/online-booking.html"
-                  class="btn btn-primary pull-right"
-                >
+                <a href="contact" class="btn btn-primary pull-right">
                   Contact Us
                 </a>{" "}
               </div>

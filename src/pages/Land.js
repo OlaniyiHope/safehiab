@@ -200,13 +200,12 @@ const Land = () => {
                     textTransform: "uppercase",
                     fontWeight: "800",
                     fontSize: "20px",
-
+                    lineHeight: "62px",
                     visibility: "inherit",
                   }}
                 >
-                  Safe and on time delivery
+                  Safe and ontime delivery
                 </h2>
-
                 <h3
                   className="hthree"
                   style={{
@@ -214,7 +213,7 @@ const Land = () => {
                     textTransform: "uppercase",
                     fontWeight: "800",
                     fontSize: "38px",
-
+                    lineHeight: "81px",
                     visibility: "inherit",
                   }}
                 >

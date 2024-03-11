@@ -357,8 +357,8 @@ const Land = () => {
               <div class="col-md-4 col-sm-4">
                 <div class="parallex-button">
                   {" "}
-                  <a href="#quote" class="page-scroll btn btn-lg btn-clean">
-                    Get a quote <i class="fa fa-angle-double-right "></i>
+                  <a href="contact" class="page-scroll btn btn-lg btn-clean">
+                    Get a quote
                   </a>{" "}
                 </div>
               </div>

@@ -96,244 +96,285 @@ const Land = () => {
         </div>
 
         <Header />
-
-        <Carousel
-          showThumbs={false}
-          infiniteLoop={true}
-          autoPlay={true}
-          interval={5000}
-          emulateTouch={true}
-        >
-          <div>
-            <img
-              src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/slider/1.jpg"
-              alt=""
-            />
-            <div
-              className="text-content"
-              style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                color: "white",
-                transform: "translate(-50%, -50%)",
-                textAlign: "center",
-              }}
-            >
-              <h2
-                className="htwo"
+        <div class="revs">
+          <Carousel
+            showThumbs={false}
+            infiniteLoop={true}
+            autoPlay={true}
+            interval={5000}
+            emulateTouch={true}
+          >
+            <div>
+              <img
+                src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/slider/1.jpg"
+                alt=""
                 style={{
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  width: "100%",
+                  height: "481px !important",
+                }}
+              />
+              <div
+                className="text-content"
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
                   color: "white",
-                  textTransform: "uppercase",
-                  fontWeight: "800",
-                  fontSize: "20px",
-                  lineHeight: "62px",
-                  visibility: "inherit",
+                  transform: "translate(-50%, -50%)",
+                  textAlign: "center",
                 }}
               >
-                We provide Efficient
-              </h2>
-              <h3
-                className="hthree"
-                style={{
-                  color: "white",
-                  textTransform: "uppercase",
-                  fontWeight: "800",
-                  fontSize: "38px",
-                  lineHeight: "81px",
-                  visibility: "inherit",
-                }}
-              >
-                Logistic Services
-              </h3>
-              <p
-                style={{ color: "white", fontSize: "17px", lineHeight: "33px" }}
-              >
-                We provide always our best services for our clients and always
-                try to achieve our client's trust and satisfaction.
-              </p>
-              <a
-                className="btn btn-colored btn-lg"
-                href="#"
-                style={{ color: "white" }}
-              >
-                Contact Now
-              </a>
+                <h2
+                  className="htwo"
+                  style={{
+                    color: "white",
+                    textTransform: "uppercase",
+                    fontWeight: "800",
+                    fontSize: "20px",
+                    lineHeight: "62px",
+                    visibility: "inherit",
+                  }}
+                >
+                  We provide Efficient
+                </h2>
+                <h3
+                  className="hthree"
+                  style={{
+                    color: "white",
+                    textTransform: "uppercase",
+                    fontWeight: "800",
+                    fontSize: "38px",
+                    lineHeight: "81px",
+                    visibility: "inherit",
+                  }}
+                >
+                  Logistic Services
+                </h3>
+                <p
+                  style={{
+                    color: "white",
+                    fontSize: "17px",
+                    lineHeight: "33px",
+                  }}
+                >
+                  We provide always our best services for our clients and always
+                  try to achieve our client's trust and satisfaction.
+                </p>
+                <a
+                  className="btn btn-colored btn-lg"
+                  href="#"
+                  style={{ color: "white" }}
+                >
+                  Contact Now
+                </a>
+              </div>
             </div>
-          </div>
-          <div>
-            <img
-              src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/slider/2.jpg"
-              alt=""
-            />
-            <div
-              className="text-content"
-              style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                color: "white",
-                transform: "translate(-50%, -50%)",
-                textAlign: "center",
-              }}
-            >
-              <h2
-                className="htwo"
+            <div>
+              <img
+                src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/slider/2.jpg"
+                alt=""
                 style={{
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  width: "100%",
+                  height: "481px !important",
+                }}
+              />
+              <div
+                className="text-content"
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
                   color: "white",
-                  textTransform: "uppercase",
-                  fontWeight: "800",
-                  fontSize: "20px",
+                  transform: "translate(-50%, -50%)",
+                  textAlign: "center",
+                }}
+              >
+                <h2
+                  className="htwo"
+                  style={{
+                    color: "white",
+                    textTransform: "uppercase",
+                    fontWeight: "800",
+                    fontSize: "20px",
 
-                  visibility: "inherit",
-                }}
-              >
-                Safe and on time delivery
-              </h2>
+                    visibility: "inherit",
+                  }}
+                >
+                  Safe and on time delivery
+                </h2>
 
-              <h3
-                className="hthree"
-                style={{
-                  color: "white",
-                  textTransform: "uppercase",
-                  fontWeight: "800",
-                  fontSize: "38px",
+                <h3
+                  className="hthree"
+                  style={{
+                    color: "white",
+                    textTransform: "uppercase",
+                    fontWeight: "800",
+                    fontSize: "38px",
 
-                  visibility: "inherit",
-                }}
-              >
-                to anywhere in Nigeria
-              </h3>
-              <p
-                style={{ color: "white", fontSize: "17px", lineHeight: "33px" }}
-              >
-                We provide always our best services for our clients and always
-                try to achieve our client's trust and satisfaction.
-              </p>
-              <a
-                className="btn btn-colored btn-lg"
-                href="#"
-                style={{ color: "white" }}
-              >
-                Contact Now
-              </a>
+                    visibility: "inherit",
+                  }}
+                >
+                  to anywhere in Nigeria
+                </h3>
+                <p
+                  style={{
+                    color: "white",
+                    fontSize: "17px",
+                    lineHeight: "33px",
+                  }}
+                >
+                  We provide always our best services for our clients and always
+                  try to achieve our client's trust and satisfaction.
+                </p>
+                <a
+                  className="btn btn-colored btn-lg"
+                  href="#"
+                  style={{ color: "white" }}
+                >
+                  Contact Now
+                </a>
+              </div>
             </div>
-          </div>
-          <div>
-            <img
-              src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/slider/3.jpg"
-              alt=""
-            />
-            <div
-              className="text-content"
-              style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                color: "white",
-                transform: "translate(-50%, -50%)",
-                textAlign: "center",
-              }}
-            >
-              <h2
-                className="htwo"
+            <div>
+              <img
+                src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/slider/3.jpg"
+                alt=""
                 style={{
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  width: "100%",
+                  height: "481px !important",
+                }}
+              />
+              <div
+                className="text-content"
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
                   color: "white",
-                  textTransform: "uppercase",
-                  fontWeight: "800",
-                  fontSize: "20px",
-                  lineHeight: "62px",
-                  visibility: "inherit",
+                  transform: "translate(-50%, -50%)",
+                  textAlign: "center",
                 }}
               >
-                professional transport
-              </h2>
-              <h3
-                className="hthree"
-                style={{
-                  color: "white",
-                  textTransform: "uppercase",
-                  fontWeight: "800",
-                  fontSize: "38px",
-                  lineHeight: "81px",
-                  visibility: "inherit",
-                }}
-              >
-                with Efficient logistic services
-              </h3>
-              <p
-                style={{ color: "white", fontSize: "17px", lineHeight: "33px" }}
-              >
-                We provide always our best services for our clients and always
-                try to achieve our client's trust and satisfaction.
-              </p>
-              <a
-                className="btn btn-colored btn-lg"
-                href="#"
-                style={{ color: "white" }}
-              >
-                Contact Now
-              </a>
+                <h2
+                  className="htwo"
+                  style={{
+                    color: "white",
+                    textTransform: "uppercase",
+                    fontWeight: "800",
+                    fontSize: "20px",
+                    lineHeight: "62px",
+                    visibility: "inherit",
+                  }}
+                >
+                  professional transport
+                </h2>
+                <h3
+                  className="hthree"
+                  style={{
+                    color: "white",
+                    textTransform: "uppercase",
+                    fontWeight: "800",
+                    fontSize: "38px",
+                    lineHeight: "81px",
+                    visibility: "inherit",
+                  }}
+                >
+                  with Efficient logistic services
+                </h3>
+                <p
+                  style={{
+                    color: "white",
+                    fontSize: "17px",
+                    lineHeight: "33px",
+                  }}
+                >
+                  We provide always our best services for our clients and always
+                  try to achieve our client's trust and satisfaction.
+                </p>
+                <a
+                  className="btn btn-colored btn-lg"
+                  href="#"
+                  style={{ color: "white" }}
+                >
+                  Contact Now
+                </a>
+              </div>
             </div>
-          </div>
-          <div>
-            <img
-              src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/slider/4.jpg"
-              alt=""
-            />
-            <div
-              className="text-content"
-              style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                color: "white",
-                transform: "translate(-50%, -50%)",
-                textAlign: "center",
-              }}
-            >
-              <h2
-                className="htwo"
+            <div>
+              <img
+                src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/slider/4.jpg"
+                alt=""
                 style={{
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  width: "100%",
+                  height: "481px !important",
+                }}
+              />
+              <div
+                className="text-content"
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
                   color: "white",
-                  textTransform: "uppercase",
-                  fontWeight: "800",
-                  fontSize: "20px",
-                  lineHeight: "62px",
-                  visibility: "inherit",
+                  transform: "translate(-50%, -50%)",
+                  textAlign: "center",
                 }}
               >
-                Fast and secure
-              </h2>
-              <h3
-                className="hthree"
-                style={{
-                  color: "white",
-                  textTransform: "uppercase",
-                  fontWeight: "800",
-                  fontSize: "38px",
-                  lineHeight: "81px",
-                  visibility: "inherit",
-                }}
-              >
-                Logistics services
-              </h3>
-              <p
-                style={{ color: "white", fontSize: "17px", lineHeight: "33px" }}
-              >
-                We provide always our best services for our clients and always
-                try to achieve our client's trust and satisfaction.
-              </p>
-              <a
-                className="btn btn-colored btn-lg"
-                href="#"
-                style={{ color: "white" }}
-              >
-                Contact Now
-              </a>
+                <h2
+                  className="htwo"
+                  style={{
+                    color: "white",
+                    textTransform: "uppercase",
+                    fontWeight: "800",
+                    fontSize: "20px",
+                    lineHeight: "62px",
+                    visibility: "inherit",
+                  }}
+                >
+                  Fast and secure
+                </h2>
+                <h3
+                  className="hthree"
+                  style={{
+                    color: "white",
+                    textTransform: "uppercase",
+                    fontWeight: "800",
+                    fontSize: "38px",
+                    lineHeight: "81px",
+                    visibility: "inherit",
+                  }}
+                >
+                  Logistics services
+                </h3>
+                <p
+                  style={{
+                    color: "white",
+                    fontSize: "17px",
+                    lineHeight: "33px",
+                  }}
+                >
+                  We provide always our best services for our clients and always
+                  try to achieve our client's trust and satisfaction.
+                </p>
+                <a
+                  className="btn btn-colored btn-lg"
+                  href="#"
+                  style={{ color: "white" }}
+                >
+                  Contact Now
+                </a>
+              </div>
             </div>
-          </div>
-        </Carousel>
+          </Carousel>
+        </div>
 
         <div class="parallex-small ">
           <div class="container">
@@ -1172,8 +1213,6 @@ const Land = () => {
             </div>
           </div>
         </section>
-
-        <Testimonial />
 
         <section id="blog" class="custom-padding">
           <div class="container">

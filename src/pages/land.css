@@ -37,3 +37,31 @@
     line-height: 2px;
   }
 }
+
+/* Add this CSS to your stylesheet */
+@media (max-width: 768px) {
+  .text-content {
+    width: 80%; /* Adjust width as needed */
+    padding: 0 10px; /* Add padding for better readability */
+  }
+
+  .text-content h2,
+  .text-content h3,
+  .text-content p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
+
+.revs {
+  height: 481px;
+}
+.revs img {
+  height: 481px;
+}
+
+@media (max-width: 600px) {
+  .carousel .slider-wrapper,
+  .carousel .slider-wrapper .slider {
+    height: 481px; /* Adjust the height as needed */
+  }
+}

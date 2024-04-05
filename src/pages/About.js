@@ -157,14 +157,13 @@ const About = () => {
                     equipment, turbines, kiosks, sculptures/statues etc across
                     nigeria our customers services is second to none
                   </p>
-
+                  <h2>Safe Hiab</h2>
                   <p>
-                    Pellentesque pharetra orci quam, vel scelerisque massa
-                    semper et. Fusce vel tortor eu metus rhoncus blandit a vel
-                    turpis. Suspendisse sed facilisis lacus. Integer mattis
-                    interdum neque, non molestie risus facilisis et. Donec
-                    gravida luctus laoreet. Curabitur quis iaculis velit.
-                    Maecenas ut tincidunt elit, sed ultricies lectus.{" "}
+                    Safety is our top priority every precaution is taken to
+                    ensure the safety of our drivers, customers, and general
+                    public, by following protocols at all times .by maintaining
+                    and inspecting our vehicles and adhere to federal, state and
+                    community regulations.
                   </p>
                 </div>
               </div>

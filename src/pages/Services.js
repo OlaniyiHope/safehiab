@@ -131,7 +131,7 @@ const Services = () => {
                       {" "}
                       <i class="flaticon-box-of-packing-for-delivery"></i>
                     </div>
-                    <h4>packaging and storage</h4>
+                    <h4>Handling Simple to Complex Deliveries</h4>
                     <p>
                       We have the right caring, experience and dedicated
                       professional for you.
@@ -145,7 +145,7 @@ const Services = () => {
                       {" "}
                       <i class="flaticon-ocean-transportation"></i>
                     </div>
-                    <h4>cargo</h4>
+                    <h4>Transporting Goods(Boat, engines etc)</h4>
                     <p>
                       We have the right caring, experience and dedicated
                       professional for you.
@@ -159,7 +159,7 @@ const Services = () => {
                       {" "}
                       <i class="flaticon-delivery-truck"></i>
                     </div>
-                    <h4>worldwide transport </h4>
+                    <h4>Transporting Container</h4>
                     <p>
                       We have the right caring, experience and dedicated
                       professional for you.
@@ -175,7 +175,7 @@ const Services = () => {
                       {" "}
                       <i class="flaticon-view-symbol-on-delivery-opened-box"></i>
                     </div>
-                    <h4>ware housing</h4>
+                    <h4>Transporting agricultural equipments/machineries</h4>
                     <p>
                       We have the right caring, experience and dedicated
                       professional for you.
@@ -189,7 +189,7 @@ const Services = () => {
                       {" "}
                       <i class="flaticon-sea-ship-with-containers"></i>
                     </div>
-                    <h4>Sea Freight</h4>
+                    <h4>Transporting factory equipments</h4>
                     <p>
                       We have the right caring, experience and dedicated
                       professional for you.
@@ -203,7 +203,7 @@ const Services = () => {
                       {" "}
                       <i class="flaticon-delivery-truck-with-packages-behind"></i>
                     </div>
-                    <h4>Door To Door Devivery </h4>
+                    <h4>Transporting turbines </h4>
                     <p>
                       We have the right caring, experience and dedicated
                       professional for you.
@@ -217,7 +217,7 @@ const Services = () => {
                       {" "}
                       <i class="flaticon-international-delivery-symbol"></i>
                     </div>
-                    <h4>global trasnport</h4>
+                    <h4>Transporting kiosks</h4>
                     <p>
                       We have the right caring, experience and dedicated
                       professional for you.
@@ -231,7 +231,7 @@ const Services = () => {
                       {" "}
                       <i class="flaticon-logistics-delivery-truck-in-movement"></i>
                     </div>
-                    <h4>fast delivery</h4>
+                    <h4>Transporting Sculptures/statues</h4>
                     <p>
                       We have the right caring, experience and dedicated
                       professional for you.
@@ -245,7 +245,7 @@ const Services = () => {
                       {" "}
                       <i class="flaticon-24-hours-symbol"></i>
                     </div>
-                    <h4>24/7 Support </h4>
+                    <h4>Transporting Gas Tanks and Cylinder</h4>
                     <p>
                       We have the right caring, experience and dedicated
                       professional for you.

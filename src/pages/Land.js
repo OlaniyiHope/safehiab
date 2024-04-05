@@ -487,7 +487,7 @@ const Land = () => {
                     <div className="icons">
                       <FiTruck style={{ width: "150px", height: "50px" }} />
                     </div>
-                    <h4>packaging and storage</h4>
+                    <h4>Transporting factory equipments</h4>
                     <p>
                       We have the right caring, experience and dedicated
                       professional for you.
@@ -499,7 +499,7 @@ const Land = () => {
                     <div className="icons">
                       <FiTruck style={{ width: "150px", height: "50px" }} />
                     </div>
-                    <h4>packaging and storage</h4>
+                    <h4>Transporting Gas Tanks and Cylinder</h4>
                     <p>
                       We have the right caring, experience and dedicated
                       professional for you.
@@ -511,7 +511,7 @@ const Land = () => {
                     <div className="icons">
                       <FiTruck style={{ width: "150px", height: "50px" }} />
                     </div>
-                    <h4>packaging and storage</h4>
+                    <h4>Transporting Container</h4>
                     <p>
                       We have the right caring, experience and dedicated
                       professional for you.
@@ -523,7 +523,7 @@ const Land = () => {
                     <div className="icons">
                       <FiTruck style={{ width: "150px", height: "50px" }} />
                     </div>
-                    <h4>packaging and storage</h4>
+                    <h4>Transporting Goods(Boat, engines etc)</h4>
                     <p>
                       We have the right caring, experience and dedicated
                       professional for you.

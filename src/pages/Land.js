@@ -18,7 +18,7 @@ import {
   faAngleRight,
   faEnvelope,
   faTruck,
-  faUserHeadset,
+  faHeadset,
 } from "@fortawesome/free-solid-svg-icons";
 import { FiTruck } from "react-icons/fi"; // Assuming you're using Feather Icons
 
@@ -587,7 +587,7 @@ const Land = () => {
                         {" "}
                         <span class="iconbox">
                           <FontAwesomeIcon
-                            icon={faUserHeadset}
+                            icon={faHeadset}
                             className="flaticon-woman-with-headset"
                           />
                         </span>

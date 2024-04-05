@@ -149,6 +149,14 @@ const About = () => {
                     with our force to be good in our society allows us to
                     support business close to our heart around Nigeria
                   </p>
+                  <h2>Our Services</h2>
+                  <p>
+                    We offer simple deliveries to complex delivery ,lifting
+                    jobs, boat containers, cabins, vehicles, tanks ,containers,
+                    engine, agricultural equipment/machineries, factory
+                    equipment, turbines, kiosks, sculptures/statues etc across
+                    nigeria our customers services is second to none
+                  </p>
 
                   <p>
                     Pellentesque pharetra orci quam, vel scelerisque massa

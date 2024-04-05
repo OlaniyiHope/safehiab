@@ -550,10 +550,10 @@ const Land = () => {
                   <h3>More about us</h3>
                   <h2>Why People Choose Us</h2>
                   <p>
-                    Ut consequat velit a metus accumsan, vel tempor nulla
-                    blandit. Integer euismod magna vel mi congue suscipit.
-                    Praesent quis facilisis neque. Donec scelerisque nibh vitae
-                    sapien ornare efficitur.
+                    Our truck logistics company provides reliable transportation
+                    services, ensuring timely delivery and peace of mind for
+                    your core business activities. These are the reasons why you
+                    should choose us
                   </p>
                 </div>
                 <div class="choose-services">
@@ -594,10 +594,12 @@ const Land = () => {
                         <div class="choose-box-content">
                           <h4>Safety & Compliance</h4>
                           <p>
-                            Donec dignissim enim id urna fermentum, non
-                            hendrerit sem volutpat ellentesque pretium sapien
-                            nec metus.non hendrerit sem volutpat ellentesque
-                            pretium sapien nec metus
+                            At Safe Hian, safety and compliance are our top
+                            priorities. We understand the importance of ensuring
+                            that your goods are transported securely and in
+                            accordance with all relevant regulations which is
+                            why you should choose us for your transportation
+                            needs
                           </p>
                         </div>
                       </div>

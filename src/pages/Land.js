@@ -13,7 +13,11 @@ import Slider from "react-slick";
 import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAngleLeft,
+  faAngleRight,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 import { FiTruck } from "react-icons/fi"; // Assuming you're using Feather Icons
 
 import ran from "./ran.png";
@@ -1536,7 +1540,7 @@ const Land = () => {
           class="quote-button hidden-xs"
         >
           <a class="btn btn-primary" href="javascript:void(0)">
-            <i class="fa fa-envelope"></i>
+            <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </div>
 
@@ -1555,7 +1559,9 @@ const Land = () => {
                   <h2>REQUEST A QUOTE</h2>
                   <div class="desc-text">
                     <p>
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                      Let us help me you deliver your goods to anywhere in
+                      Nigeria. We will get back to you immediately after
+                      submitting your request.
                     </p>
                   </div>
                   <form

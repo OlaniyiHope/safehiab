@@ -126,36 +126,28 @@ const About = () => {
             <div class="row clearfix">
               <div class="col-md-7 col-sm-12 col-xs-12 ">
                 <div class="about-title">
-                  <h2>We Provide Services All Over Nigeria</h2>
+                  <h2>Who We Are</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Praesent congue justo scelerisque mattis iaculis. Maecenas
-                    vestibulum faucibus enim scelerisque egestas. Praesent
-                    facilisis, tortor vel vehicula imperdiet, felis massa
-                    ultrices metus, sed consectetur massa ex vitae sem. Integer
-                    eu sodales augue. Suspendisse eget placerat lorem. Phasellus
-                    ac hendrerit leo. Morbi quis iaculis eros. Sed tincidunt
-                    augue ante, sit amet vehicula odio aliquam quis. Donec at
-                    malesuada nisl. Pellentesque eros lorem, aliquet id
-                    hendrerit id, hendrerit ac odio. In dui mauris, auctor vel
-                    vestibulum vitae, tincidunt id mi.{" "}
+                    Safe hiab is a private owned business registered in Nigeria
+                    to carry out general contracts ... that has been providing
+                    reliable, trustworthy, and safe services safe hiab is
+                    affiliated to safe oil and gas global limited which has been
+                    In business for about 4 years safe hiab is very passionate
+                    about delivering heavy or oversized items ., efficiently and
+                    safe for our customer satisfaction , our professional
+                    drivers are committed to delivering and we take pride in
+                    excellence.
                   </p>
+                  <h2>Our Mission</h2>
                   <p>
-                    Curabitur dictum, sapien eu mattis pretium, ligula lorem
-                    sollicitudin mi, in gravida augue magna eu metus. Interdum
-                    et malesuada fames ac ante ipsum primis in faucibus. Duis a
-                    ultrices tortor. Sed rutrum arcu mi, nec aliquet magna
-                    venenatis non. Nullam lectus neque, semper nec accumsan
-                    quis, ullamcorper eget risus. Nullam tristique mi nec dui
-                    bibendum egestas. Integer libero diam, dictum id faucibus
-                    id, lacinia eget lorem. Ut condimentum, lorem at eleifend
-                    pharetra, urna turpis ultrices nunc, sit amet suscipit nisl
-                    metus sit amet elit. Nam tristique mollis molestie. Maecenas
-                    bibendum rhoncus nisi, sit amet blandit tortor placerat nec.
-                    Sed nec aliquam tortor, ut vehicula eros. Vestibulum id
-                    ligula vel nunc mattis pharetra in non lectus. Etiam quis
-                    blandit ante. Donec non hendrerit justo, rhoncus iaculis
-                    sem. In varius finibus eros quis dictum tortor eu metus.
+                    The mission is to provide our client with quick ,reliable,
+                    easy services at our very best that exceed our client
+                    expectations , To help find the best solution and help by
+                    answering all questions with best solutions. Value Honestly,
+                    transparency, trustworthy, integrity is what we are called ,
+                    good customer relations we stand firm with 100% satisfaction
+                    with our force to be good in our society allows us to
+                    support business close to our heart around Nigeria
                   </p>
 
                   <p>

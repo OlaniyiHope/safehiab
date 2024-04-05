@@ -17,6 +17,8 @@ import {
   faAngleLeft,
   faAngleRight,
   faEnvelope,
+  faTruck,
+  faUserHeadset,
 } from "@fortawesome/free-solid-svg-icons";
 import { FiTruck } from "react-icons/fi"; // Assuming you're using Feather Icons
 
@@ -560,15 +562,21 @@ const Land = () => {
                       <div class="choose-box">
                         {" "}
                         <span class="iconbox">
-                          <i class="flaticon-logistics-delivery-truck-and-clock"></i>
+                          <FontAwesomeIcon
+                            icon={faTruck}
+                            className="flaticon-logistics-delivery-truck-and-clock"
+                          />
                         </span>
                         <div class="choose-box-content">
                           <h4>Fast Worldwide delivery</h4>
                           <p>
-                            Donec dignissim enim id urna fermentum, non
-                            hendrerit sem volutpat ellentesque pretium sapien
-                            nec metus.non hendrerit sem volutpat ellentesque
-                            pretium sapien nec metus
+                            When you choose our logistics services, you're
+                            opting for fast and efficient delivery solutions
+                            that span Nigeria. We understand the importance of
+                            timely transportation in today's fast-paced world,
+                            and we're committed to ensuring that your goods
+                            reach their destination swiftly and securely via our
+                            trucks.
                           </p>
                         </div>
                       </div>
@@ -578,7 +586,10 @@ const Land = () => {
                       <div class="choose-box">
                         {" "}
                         <span class="iconbox">
-                          <i class="flaticon-woman-with-headset"></i>
+                          <FontAwesomeIcon
+                            icon={faUserHeadset}
+                            className="flaticon-woman-with-headset"
+                          />
                         </span>
                         <div class="choose-box-content">
                           <h4>Safety & Compliance</h4>

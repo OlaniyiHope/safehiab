@@ -152,7 +152,7 @@ const About = () => {
                     We cater to a wide spectrum of delivery needs, ranging from
                     straightforward transportations to intricate logistics
                     solutions:
-                    <ul>
+                    <ul style={{ listStyleType: "disc" }}>
                       <li>Handling Simple to Complex Deliveries</li>
                       <li>Transporting Goods</li>
                       <li>Transporting Boat</li>

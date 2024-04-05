@@ -128,34 +128,46 @@ const About = () => {
                 <div class="about-title">
                   <h2>Who We Are</h2>
                   <p>
-                    Safe hiab is a private owned business registered in Nigeria
-                    to carry out general contracts ... that has been providing
-                    reliable, trustworthy, and safe services safe hiab is
-                    affiliated to safe oil and gas global limited which has been
-                    In business for about 4 years safe hiab is very passionate
-                    about delivering heavy or oversized items ., efficiently and
-                    safe for our customer satisfaction , our professional
-                    drivers are committed to delivering and we take pride in
-                    excellence.
+                    Safe Hiab is a private owned business registered in Nigeria
+                    to carry out general contracts, providing reliable,
+                    trustworthy, and safe services. Safe Hiab is affiliated to
+                    Safe Oil and Gas Global Limited which has been In business
+                    for about 4 years. Safe Hiab is very passionate about
+                    delivering heavy or oversized items efficiently and safe for
+                    our customer satisfaction. Our professional drivers are
+                    committed to delivering and we take pride in excellence.
                   </p>
-                  <h2>Our Mission</h2>
+                  <h2>Our Mission and Value</h2>
                   <p>
-                    The mission is to provide our client with quick ,reliable,
-                    easy services at our very best that exceed our client
-                    expectations , To help find the best solution and help by
-                    answering all questions with best solutions. Value Honestly,
-                    transparency, trustworthy, integrity is what we are called ,
-                    good customer relations we stand firm with 100% satisfaction
-                    with our force to be good in our society allows us to
-                    support business close to our heart around Nigeria
+                    Our mission is to provide our client with quick, reliable
+                    and easy services that exceed our client expectations. Also
+                    to help find the best solution by answering questions with
+                    workable solutions. Honesty, transparency, trustworthiness,
+                    good customer relationship, integrity is what we are called.
+                    We give our 100% support to business in the society and
+                    solve their transport needs.
                   </p>
                   <h2>Our Services</h2>
                   <p>
-                    We offer simple deliveries to complex delivery ,lifting
-                    jobs, boat containers, cabins, vehicles, tanks ,containers,
-                    engine, agricultural equipment/machineries, factory
-                    equipment, turbines, kiosks, sculptures/statues etc across
-                    nigeria our customers services is second to none
+                    We cater to a wide spectrum of delivery needs, ranging from
+                    straightforward transportations to intricate logistics
+                    solutions:
+                    <ul>
+                      <li>Handling Simple to Complex Deliveries</li>
+                      <li>Transporting Goods</li>
+                      <li>Transporting Boat</li>
+                      <li> Transporting Container</li>
+                      <li>Transporting Engines</li>
+                      <li>Transporting agricultural equipments/machineries</li>
+                      <li>Transporting factory equipments</li>
+                      <li>Transporting turbines</li>
+                      <li>Transporting kiosks</li>
+                      <li>Transporting Sculptures/statues </li>
+                      <li>
+                        Transporting Tanks etc our customer service is second to
+                        none
+                      </li>
+                    </ul>
                   </p>
                   <h2>Safe Hiab</h2>
                   <p>

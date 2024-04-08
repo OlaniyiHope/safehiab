@@ -389,7 +389,7 @@ const Land = () => {
                   <div class="services-grid-1">
                     <div class="service-image">
                       <a href="#">
-                        <img alt="" src={one} />
+                        <img alt="" src={four} />
                       </a>
                     </div>
                     <div class="services-text">
@@ -406,7 +406,7 @@ const Land = () => {
                     </div>
                     <div class="more-about">
                       {" "}
-                      <a class="btn btn-primary btn-lg" href="#">
+                      <a class="btn btn-primary btn-lg" href="/">
                         Read More{" "}
                         <FontAwesomeIcon icon={faChevronCircleRight} />
                       </a>{" "}
@@ -435,7 +435,7 @@ const Land = () => {
                     </div>
                     <div class="more-about">
                       {" "}
-                      <a class="btn btn-primary btn-lg" href="#">
+                      <a class="btn btn-primary btn-lg" href="/">
                         Read More{" "}
                         <FontAwesomeIcon icon={faChevronCircleRight} />
                       </a>{" "}
@@ -463,7 +463,7 @@ const Land = () => {
                     </div>
                     <div class="more-about">
                       {" "}
-                      <a class="btn btn-primary btn-lg" href="#">
+                      <a class="btn btn-primary btn-lg" href="/">
                         Read More{" "}
                         <FontAwesomeIcon icon={faChevronCircleRight} />
                       </a>{" "}

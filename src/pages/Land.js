@@ -389,10 +389,7 @@ const Land = () => {
                   <div class="services-grid-1">
                     <div class="service-image">
                       <a href="#">
-                        <img
-                          alt=""
-                          src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/1.jpg"
-                        />
+                        <img alt="" src={one} />
                       </a>
                     </div>
                     <div class="services-text">
@@ -421,10 +418,7 @@ const Land = () => {
                   <div class="services-grid-1">
                     <div class="service-image">
                       <a href="#">
-                        <img
-                          alt=""
-                          src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/2.jpg"
-                        />
+                        <img alt="" src={two} />
                       </a>
                     </div>
                     <div class="services-text">
@@ -453,10 +447,7 @@ const Land = () => {
                   <div class="services-grid-1">
                     <div class="service-image">
                       <a href="#">
-                        <img
-                          alt=""
-                          src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/1.jpg"
-                        />
+                        <img alt="" src={three} />
                       </a>
                     </div>
                     <div class="services-text">

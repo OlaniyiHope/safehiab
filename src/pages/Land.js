@@ -914,212 +914,44 @@ const Land = () => {
               <ul id="portfolio-grid" class="three-column hover-two">
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={one} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" src={one}>
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={two} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" src={two}>
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={three} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" src={three}>
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
 
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={four} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" src={four}>
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={five} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" src={five}>
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={six} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" src={six}>
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
 
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={seven} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" src={seven}>
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={eight} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" src={eight}>
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
                 <li class="portfolio-item gutter">

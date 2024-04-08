@@ -11,6 +11,14 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the styles
 import Slider from "react-slick";
 import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
+import one from "./1.jpeg";
+import two from "./2.jpeg";
+import three from "./3.jpeg";
+import four from "./4.jpeg";
+import five from "./5.jpeg";
+import six from "./6.jpeg";
+import seven from "./7.jpeg";
+import eight from "./8.jpeg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -30,6 +38,7 @@ import "./land.css";
 import TopNav from "./TopNav";
 import Header from "./Header";
 import Testimonial from "./Testimonial";
+import { SixMpSharp, TwoKTwoTone } from "@mui/icons-material";
 const Land = () => {
   const settings = {
     dots: false,
@@ -479,12 +488,7 @@ const Land = () => {
           <div className="container">
             <div className="main-heading text-center">
               <h2>Our Services</h2>
-              <p>
-                Cras varius purus in tempus porttitor ut dapibus efficitur
-                sagittis cras vitae lacus metus nunc vulputate facilisis nisi{" "}
-                <br /> eu lobortis erat consequat ut. Aliquam et justo ante. Nam
-                a cursus velit
-              </p>
+              <p>Here are the list of the services we offer and more</p>
             </div>
             <div className="row">
               <Slider {...settings}>
@@ -911,10 +915,7 @@ const Land = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/1.jpg"
-                      alt=""
-                    />
+                    <img src={one} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -925,10 +926,7 @@ const Land = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/1.jpg"
-                        >
+                        <a class="tt-lightbox" src={one}>
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -943,10 +941,7 @@ const Land = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/2.jpg"
-                      alt=""
-                    />
+                    <img src={two} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -957,10 +952,7 @@ const Land = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/2.jpg"
-                        >
+                        <a class="tt-lightbox" src={two}>
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -975,10 +967,7 @@ const Land = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/3.jpg"
-                      alt=""
-                    />
+                    <img src={three} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -989,10 +978,7 @@ const Land = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/3.jpg"
-                        >
+                        <a class="tt-lightbox" src={three}>
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -1008,10 +994,7 @@ const Land = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/4.jpg"
-                      alt=""
-                    />
+                    <img src={four} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -1022,10 +1005,7 @@ const Land = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/4.jpg"
-                        >
+                        <a class="tt-lightbox" src={four}>
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -1040,10 +1020,7 @@ const Land = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/5.jpg"
-                      alt=""
-                    />
+                    <img src={five} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -1054,10 +1031,7 @@ const Land = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/5.jpg"
-                        >
+                        <a class="tt-lightbox" src={five}>
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -1072,10 +1046,7 @@ const Land = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/6.jpg"
-                      alt=""
-                    />
+                    <img src={six} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -1086,10 +1057,7 @@ const Land = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/6.jpg"
-                        >
+                        <a class="tt-lightbox" src={six}>
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -1105,10 +1073,7 @@ const Land = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/7.jpg"
-                      alt=""
-                    />
+                    <img src={seven} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -1119,10 +1084,7 @@ const Land = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/7.jpg"
-                        >
+                        <a class="tt-lightbox" src={seven}>
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -1137,10 +1099,7 @@ const Land = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/8.jpg"
-                      alt=""
-                    />
+                    <img src={eight} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -1151,10 +1110,7 @@ const Land = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/8.jpg"
-                        >
+                        <a class="tt-lightbox" src={eight}>
                           <i class="fa fa-search"></i>
                         </a>
                       </li>

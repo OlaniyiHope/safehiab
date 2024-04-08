@@ -991,7 +991,7 @@ const Land = () => {
           </div>
         </section>
 
-        <section id="blog" class="custom-padding">
+        {/*}  <section id="blog" class="custom-padding">
           <div class="container">
             <div class="main-heading text-center">
               <h2>OUR BLOG</h2>
@@ -1160,7 +1160,7 @@ const Land = () => {
             </div>
           </div>
         </section>
-
+                */}
         <footer class="footer-area">
           <div class="footer-content">
             <div class="container">

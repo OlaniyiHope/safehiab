@@ -148,8 +148,8 @@ const Land = () => {
                     lineHeight: "33px",
                   }}
                 >
-                  We provide always our best services for our clients and always
-                  try to achieve our client's trust and satisfaction.
+                  We provide the best services for our clients and we always
+                  make sure our clients are satisfied
                 </p>
                 <a
                   className="btn btn-colored btn-lg"
@@ -215,12 +215,12 @@ const Land = () => {
                     lineHeight: "33px",
                   }}
                 >
-                  We provide always our best services for our clients and always
-                  try to achieve our client's trust and satisfaction.
+                  We ensure that your goods reaches its destination quickly and
+                  securely, without compromising on safety or quality
                 </p>
                 <a
                   className="btn btn-colored btn-lg"
-                  href="contact"
+                  href="/contact"
                   style={{ color: "white" }}
                 >
                   Contact Now
@@ -260,7 +260,7 @@ const Land = () => {
                     visibility: "inherit",
                   }}
                 >
-                  professional transport
+                  We are professional
                 </h2>
                 <h3
                   className="hthree"
@@ -273,7 +273,7 @@ const Land = () => {
                     visibility: "inherit",
                   }}
                 >
-                  with Efficient logistic services
+                  with Experience And Expertise
                 </h3>
                 <p
                   style={{
@@ -282,8 +282,9 @@ const Land = () => {
                     lineHeight: "33px",
                   }}
                 >
-                  We provide always our best services for our clients and always
-                  try to achieve our client's trust and satisfaction.
+                  Safe Hiab is a professional logistic company, with experienced
+                  skill in the industry, such as expertise in handling specific
+                  types of goods
                 </p>
                 <a
                   className="btn btn-colored btn-lg"
@@ -327,7 +328,7 @@ const Land = () => {
                     visibility: "inherit",
                   }}
                 >
-                  Fast and secure
+                  Handling Simple To Complex
                 </h2>
                 <h3
                   className="hthree"
@@ -340,7 +341,7 @@ const Land = () => {
                     visibility: "inherit",
                   }}
                 >
-                  Logistics services
+                  Deliveries
                 </h3>
                 <p
                   style={{
@@ -349,8 +350,8 @@ const Land = () => {
                     lineHeight: "33px",
                   }}
                 >
-                  We provide always our best services for our clients and always
-                  try to achieve our client's trust and satisfaction.
+                  We provide the best services for our clients and make sure
+                  they are satisfied with our services rendered
                 </p>
                 <a
                   className="btn btn-colored btn-lg"

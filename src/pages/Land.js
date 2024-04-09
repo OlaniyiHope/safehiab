@@ -39,6 +39,7 @@ import ran from "./ran.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./land.css";
+
 import TopNav from "./TopNav";
 import Header from "./Header";
 import Testimonial from "./Testimonial";
@@ -52,21 +53,46 @@ const Land = () => {
     slidesToScroll: 1,
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
+    arrows: true,
     responsive: [
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          arrows: true,
+          prevArrow: <PrevArrow />,
+          nextArrow: <NextArrow />,
         },
       },
     ],
   };
 
+  // function PrevArrow(props) {
+  //   const { onClick } = props;
+  //   return (
+  //     <div className="slick-arrow slick-prev" onClick={onClick}>
+  //       <FontAwesomeIcon icon={faAngleLeft} />
+  //     </div>
+  //   );
+  // }
+
+  // function NextArrow(props) {
+  //   const { onClick } = props;
+  //   return (
+  //     <div className="slick-arrow slick-next" onClick={onClick}>
+  //       <FontAwesomeIcon icon={faAngleRight} />
+  //     </div>
+  //   );
+  // }
   function PrevArrow(props) {
     const { onClick } = props;
     return (
-      <div className="slick-arrow slick-prev" onClick={onClick}>
+      <div
+        className="slick-arrow slick-prev"
+        onClick={onClick}
+        style={{ left: "10px", zIndex: "10" }}
+      >
         <FontAwesomeIcon icon={faAngleLeft} />
       </div>
     );
@@ -75,7 +101,11 @@ const Land = () => {
   function NextArrow(props) {
     const { onClick } = props;
     return (
-      <div className="slick-arrow slick-next" onClick={onClick}>
+      <div
+        className="slick-arrow slick-next"
+        onClick={onClick}
+        style={{ right: "10px", zIndex: "10" }}
+      >
         <FontAwesomeIcon icon={faAngleRight} />
       </div>
     );

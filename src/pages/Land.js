@@ -12,6 +12,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the st
 import Slider from "react-slick";
 import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
 import one from "./1.jpeg";
+import on from "./11.png";
+import on5 from "./12.png";
+import on4 from "./13.png";
+import on3 from "./14.png";
 import two from "./2.jpeg";
 import three from "./3.jpeg";
 import four from "./4.jpeg";
@@ -91,13 +95,13 @@ const Land = () => {
           >
             <div>
               <img
-                src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/slider/1.jpg"
+                src={on}
                 alt=""
                 style={{
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   width: "100%",
-                  height: "481px !important",
+                  height: "81px !important",
                 }}
               />
               <div
@@ -158,7 +162,7 @@ const Land = () => {
             </div>
             <div>
               <img
-                src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/slider/2.jpg"
+                src={on3}
                 alt=""
                 style={{
                   backgroundSize: "cover",
@@ -225,7 +229,7 @@ const Land = () => {
             </div>
             <div>
               <img
-                src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/slider/3.jpg"
+                src={on4}
                 alt=""
                 style={{
                   backgroundSize: "cover",
@@ -292,7 +296,7 @@ const Land = () => {
             </div>
             <div>
               <img
-                src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/slider/4.jpg"
+                src={on5}
                 alt=""
                 style={{
                   backgroundSize: "cover",

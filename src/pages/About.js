@@ -13,6 +13,7 @@ import Slider from "react-slick";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import ran from "./ran.png";
+import eight from "./8.jpeg";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -214,14 +215,14 @@ const About = () => {
           <div class="container" style={{ backgroundColor: "red !important" }}>
             <div class="row" style={{ backgroundColor: "red !important" }}>
               <div class="col-xs-6 col-sm-3 col-md-3">
-                <div class="statistic-percent" data-perc="356">
+                <div class="statistic-percent" data-perc="56">
                   <div class="facts-icons">
                     {" "}
                     <span class="flaticon-woman-with-headset"></span>{" "}
                   </div>
                   <div class="fact">
                     {" "}
-                    <span class="percentfactor">356</span>
+                    <span class="percentfactor">56</span>
                     <p>Happy Clients</p>
                   </div>
                 </div>
@@ -235,7 +236,7 @@ const About = () => {
                   </div>
                   <div class="fact">
                     {" "}
-                    <span class="percentfactor">126</span>
+                    <span class="percentfactor">30</span>
                     <p>Order Received</p>
                   </div>
                 </div>
@@ -249,7 +250,7 @@ const About = () => {
                   </div>
                   <div class="fact">
                     {" "}
-                    <span class="percentfactor">274</span>
+                    <span class="percentfactor">10</span>
                     <p>Free Delivery</p>
                   </div>
                 </div>
@@ -263,7 +264,7 @@ const About = () => {
                   </div>
                   <div class="fact">
                     {" "}
-                    <span class="percentfactor">434</span>
+                    <span class="percentfactor">50</span>
                     <p>Completed Projects</p>
                   </div>
                 </div>
@@ -276,10 +277,8 @@ const About = () => {
             <div class="main-heading text-center">
               <h2>our Team</h2>
               <p>
-                Cras varius purus in tempus porttitor ut dapibus efficitur
-                sagittis cras vitae lacus metus nunc vulputate facilisis nisi{" "}
-                <br /> eu lobortis erat consequat ut. Aliquam et justo ante. Nam
-                a cursus velit
+                Meet the team that helps to make sure your goods is delivered
+                safely
               </p>
             </div>
 
@@ -287,11 +286,7 @@ const About = () => {
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="team-grid">
                   <div class="team-image">
-                    <img
-                      alt=""
-                      class="img-responsive"
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/team/3.jpg"
-                    />
+                    <img alt="" class="img-responsive" src={eight} />
                     <div class="team-grid-overlay">
                       <div class="social-media">
                         <a class="facebook" href="#">
@@ -310,8 +305,8 @@ const About = () => {
                     </div>
                   </div>
                   <div class="team-content">
-                    <h2>Arslan Tariq</h2>
-                    <p>CEO</p>
+                    <h2>Samuel</h2>
+                    <p>Truck Manager</p>
                   </div>
                 </div>
               </div>
@@ -319,11 +314,7 @@ const About = () => {
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="team-grid">
                   <div class="team-image">
-                    <img
-                      alt=""
-                      class="img-responsive"
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/team/3.jpg"
-                    />
+                    <img alt="" class="img-responsive" src={eight} />
                     <div class="team-grid-overlay">
                       <div class="social-media">
                         <a class="facebook" href="#">
@@ -342,8 +333,8 @@ const About = () => {
                     </div>
                   </div>
                   <div class="team-content">
-                    <h2>Arslan Tariq</h2>
-                    <p>CEO</p>
+                    <h2>Bemi</h2>
+                    <p>Truck Supervisor</p>
                   </div>
                 </div>
               </div>
@@ -351,11 +342,7 @@ const About = () => {
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="team-grid">
                   <div class="team-image">
-                    <img
-                      alt=""
-                      class="img-responsive"
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/team/3.jpg"
-                    />
+                    <img alt="" class="img-responsive" src={eight} />
                     <div class="team-grid-overlay">
                       <div class="social-media">
                         <a class="facebook" href="#">
@@ -374,8 +361,8 @@ const About = () => {
                     </div>
                   </div>
                   <div class="team-content">
-                    <h2>Arslan Tariq</h2>
-                    <p>CEO</p>
+                    <h2>Rilwan</h2>
+                    <p>Truck inspector</p>
                   </div>
                 </div>
               </div>

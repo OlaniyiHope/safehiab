@@ -100,7 +100,7 @@ const Blog = () => {
             <div class="row">
               <div class="page-title">
                 <div class="col-sm-12 col-md-6 page-heading text-left">
-                  <h3>Our feeds </h3>
+                  <h3>Our Blog </h3>
                   <h2>Latest News</h2>
                 </div>
                 <div class="col-sm-12 col-md-6 text-right">
@@ -121,7 +121,7 @@ const Blog = () => {
           </div>
         </section>
 
-        <section id="blog" class="custom-padding">
+        {/*} <section id="blog" class="custom-padding">
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-xs-12 col-md-12">
@@ -455,7 +455,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-        </section>
+  </section>*/}
         <footer class="footer-area">
           <div class="footer-content">
             <div class="container">

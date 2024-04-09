@@ -13,7 +13,18 @@ import Slider from "react-slick";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import ran from "./ran.png";
-
+import one from "./1.jpeg";
+import on from "./11.png";
+import on5 from "./12.png";
+import on4 from "./13.png";
+import on3 from "./14.png";
+import two from "./2.jpeg";
+import three from "./3.jpeg";
+import four from "./4.jpeg";
+import five from "./5.jpeg";
+import six from "./6.jpeg";
+import seven from "./7.jpeg";
+import eight from "./8.jpeg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./land.css";
@@ -126,10 +137,8 @@ const Gallery = () => {
             <div class="main-heading text-center">
               <h2>OUR GALLERY</h2>
               <p>
-                Cras varius purus in tempus porttitor ut dapibus efficitur
-                sagittis cras vitae lacus metus nunc vulputate facilisis nisi{" "}
-                <br /> eu lobortis erat consequat ut. Aliquam et justo ante. Nam
-                a cursus velit
+                Check out some of our works dones and more about us, we are
+                trusted and safe
               </p>
             </div>
 
@@ -138,10 +147,7 @@ const Gallery = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/1.jpg"
-                      alt=""
-                    />
+                    <img src={one} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -152,10 +158,7 @@ const Gallery = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/1.jpg"
-                        >
+                        <a class="tt-lightbox" href={one}>
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -170,10 +173,7 @@ const Gallery = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/2.jpg"
-                      alt=""
-                    />
+                    <img src={two} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -184,10 +184,7 @@ const Gallery = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/2.jpg"
-                        >
+                        <a class="tt-lightbox" href="two">
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -202,10 +199,7 @@ const Gallery = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/3.jpg"
-                      alt=""
-                    />
+                    <img src={three} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -216,10 +210,7 @@ const Gallery = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/3.jpg"
-                        >
+                        <a class="tt-lightbox" href={three}>
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -235,10 +226,7 @@ const Gallery = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/4.jpg"
-                      alt=""
-                    />
+                    <img src={four} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -249,10 +237,7 @@ const Gallery = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/4.jpg"
-                        >
+                        <a class="tt-lightbox" href={four}>
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -267,10 +252,7 @@ const Gallery = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/5.jpg"
-                      alt=""
-                    />
+                    <img src={five} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -281,10 +263,7 @@ const Gallery = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/5.jpg"
-                        >
+                        <a class="tt-lightbox" href={five}>
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -299,10 +278,7 @@ const Gallery = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/6.jpg"
-                      alt=""
-                    />
+                    <img src={six} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -313,10 +289,7 @@ const Gallery = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/6.jpg"
-                        >
+                        <a class="tt-lightbox" href={six}>
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -332,10 +305,7 @@ const Gallery = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/7.jpg"
-                      alt=""
-                    />
+                    <img src={seven} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -346,10 +316,7 @@ const Gallery = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/7.jpg"
-                        >
+                        <a class="tt-lightbox" href="seven">
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -364,10 +331,7 @@ const Gallery = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/8.jpg"
-                      alt=""
-                    />
+                    <img src={eight} alt="" />
 
                     <div class="portfolio-info">
                       <h3 class="project-title">Project Title</h3>
@@ -378,10 +342,7 @@ const Gallery = () => {
 
                     <ul class="portfolio-details">
                       <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/8.jpg"
-                        >
+                        <a class="tt-lightbox" href="eight">
                           <i class="fa fa-search"></i>
                         </a>
                       </li>
@@ -430,164 +391,156 @@ const Gallery = () => {
           </div>
         </section>
         <footer class="footer-area">
-        <div class="footer-content">
-          <div class="container">
-            <div class="row clearfix">
-              <div class="col-md-6 col-sm-12 col-xs-12">
-                <div class="row clearfix">
-                  <div class="col-lg-7 col-sm-6 col-xs-12 column">
-                    <div class="footer-widget about-widget">
-                      <div class="logo">
-                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/index.html">
-                          <img
-                            src={ran}
-                            style={{ width: "100px", height: "50px" }}
-                            class="img-responsive"
-                            alt=""
-                          />
-                        </a>
-                      </div>
+          <div class="footer-content">
+            <div class="container">
+              <div class="row clearfix">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                  <div class="row clearfix">
+                    <div class="col-lg-7 col-sm-6 col-xs-12 column">
+                      <div class="footer-widget about-widget">
+                        <div class="logo">
+                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/index.html">
+                            <img
+                              src={ran}
+                              style={{ width: "100px", height: "50px" }}
+                              class="img-responsive"
+                              alt=""
+                            />
+                          </a>
+                        </div>
 
-                      <ul class="contact-info">
+                        <ul class="contact-info">
+                          <li>
+                            <span class="icon fa fa-map-marker"></span> i201,
+                            i202 Ogba Multipurpose Hall adjacent Sunday market,
+                            along wempco, Ogba, Ikeja lagos
+                          </li>
+                          <li>
+                            <span class="icon fa fa-phone"></span>
+                            09134777222, 08038763637
+                          </li>
+                          <li>
+                            <span class="icon fa fa-envelope-o"></span>{" "}
+                            info@safehiab.com
+                          </li>
+                          <li>
+                            <span class="icon fa fa-fax"></span> 09134777222
+                          </li>
+                        </ul>
+                        <div class="social-links-two clearfix">
+                          {" "}
+                          <a href="#" class="facebook img-circle">
+                            <span class="fa fa-facebook-f"></span>
+                          </a>{" "}
+                          <a href="#" class="twitter img-circle">
+                            <span class="fa fa-twitter"></span>
+                          </a>{" "}
+                          <a href="#" class="google-plus img-circle">
+                            <span class="fa fa-google-plus"></span>
+                          </a>{" "}
+                          <a href="#" class="linkedin img-circle">
+                            <span class="fa fa-pinterest-p"></span>
+                          </a>{" "}
+                          <a href="#" class="linkedin img-circle">
+                            <span class="fa fa-linkedin"></span>
+                          </a>{" "}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-5 col-sm-6 col-xs-12 column">
+                      <h2>Our Service</h2>
+                      <div class="footer-widget links-widget">
+                        <ul>
+                          <li>
+                            <a href="#">Transporting Gas tanks and cylinders</a>
+                          </li>
+                          <li>
+                            <a href="#">Transporting containers and goods</a>
+                          </li>
+                          <li>
+                            <a href="#">Transporting factory equipments</a>
+                          </li>
+                          <li>
+                            <a href="#">Transporting agricultural equipments</a>
+                          </li>
+                          <li>
+                            <a href="#">Transporting kiosks</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                  <div class="col-lg-7 col-sm-6 col-xs-12 column">
+                    <div class="footer-widget news-widget">
+                      <h2>Privacy Policy</h2>
+                      <ul>
                         <li>
-                          <span class="icon fa fa-map-marker"></span> i201,
-                          i202 Ogba Multipurpose Hall adjacent Sunday market,
-                          along wempco, Ogba, Ikeja lagos
+                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/about.html">
+                            Our Terms
+                          </a>
                         </li>
                         <li>
-                          <span class="icon fa fa-phone"></span>
-                          09134777222, 08038763637
+                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/team.html">
+                            Help center
+                          </a>
                         </li>
                         <li>
-                          <span class="icon fa fa-envelope-o"></span>{" "}
-                          info@safehiab.com
+                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/services.html">
+                            Contact
+                          </a>
                         </li>
+
                         <li>
-                          <span class="icon fa fa-fax"></span> 09134777222
+                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/contact.html">
+                            Contact Us
+                          </a>
                         </li>
                       </ul>
-                      <div class="social-links-two clearfix">
-                        {" "}
-                        <a href="#" class="facebook img-circle">
-                          <span class="fa fa-facebook-f"></span>
-                        </a>{" "}
-                        <a href="#" class="twitter img-circle">
-                          <span class="fa fa-twitter"></span>
-                        </a>{" "}
-                        <a href="#" class="google-plus img-circle">
-                          <span class="fa fa-google-plus"></span>
-                        </a>{" "}
-                        <a href="#" class="linkedin img-circle">
-                          <span class="fa fa-pinterest-p"></span>
-                        </a>{" "}
-                        <a href="#" class="linkedin img-circle">
-                          <span class="fa fa-linkedin"></span>
-                        </a>{" "}
-                      </div>
                     </div>
                   </div>
 
                   <div class="col-lg-5 col-sm-6 col-xs-12 column">
-                    <h2>Our Service</h2>
                     <div class="footer-widget links-widget">
+                      <h2>Site Links</h2>
                       <ul>
                         <li>
-                          <a href="#">Transporting Gas tanks and cylinders</a>
+                          <a href="/about">About Us</a>
+                        </li>
+
+                        <li>
+                          <a href="/services">Our Services</a>
                         </li>
                         <li>
-                          <a href="#">Transporting containers and goods</a>
+                          <a href="/blog">Blog</a>
                         </li>
                         <li>
-                          <a href="#">Transporting factory equipments</a>
-                        </li>
-                        <li>
-                          <a href="#">Transporting agricultural equipments</a>
-                        </li>
-                        <li>
-                          <a href="#">Transporting kiosks</a>
+                          <a href="/contact">Contact Us</a>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
 
-              <div class="col-md-6 col-sm-12 col-xs-12">
-                <div class="col-lg-7 col-sm-6 col-xs-12 column">
-                <div class="footer-widget news-widget">
-                <h2>Privacy Policy</h2>
-                <ul>
-                  <li>
-                    <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/about.html">
-                      Our Terms
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/team.html">
-                      Help center
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/services.html">
-                      Contact
-                    </a>
-                  </li>
-              
-                  <li>
-                    <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/contact.html">
-                      Contact Us
-                    </a>
-                  </li>
-                </ul>
-              </div>
-                </div>
-
-                <div class="col-lg-5 col-sm-6 col-xs-12 column">
-                  <div class="footer-widget links-widget">
-                    <h2>Site Links</h2>
-                    <ul>
-                      <li>
-                        <a href="/about">
-                          About Us
-                        </a>
-                      </li>
-                 
-                      <li>
-                        <a href="/services">
-                          Our Services
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/blog">
-                          Blog
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/contact">
-                          Contact Us
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+          <div class="footer-copyright">
+            <div class="auto-container clearfix">
+              <div class="copyright text-center">
+                Copyright 2024 &copy; SafeHiab
+                <a
+                  target="_blank"
+                  href="http://themeforest.net/user/scriptsbundle/portfolio"
+                ></a>{" "}
+                All Rights Reserved
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="footer-copyright">
-          <div class="auto-container clearfix">
-            <div class="copyright text-center">
-              Copyright 2024 &copy; SafeHiab
-              <a
-                target="_blank"
-                href="http://themeforest.net/user/scriptsbundle/portfolio"
-              ></a>{" "}
-              All Rights Reserved
-            </div>
-          </div>
-        </div>
-      </footer>
+        </footer>
 
         <div
           data-target="#request-quote"

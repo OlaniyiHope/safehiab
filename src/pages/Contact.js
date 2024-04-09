@@ -128,10 +128,8 @@ const Contact = () => {
                 <div class="about-title">
                   <h2>Place Booking Online</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Praesent congue justo scelerisque mattis iaculis. Maecenas
-                    vestibulum faucibus enim scelerisque egestas. Praesent
-                    facilisis, tortor vel vehicula imperdiet.{" "}
+                    Do you want to transport any of your goods to anywhere in
+                    Nigeria, then fill this
                   </p>
                 </div>
                 <div class="notice success" id="success">

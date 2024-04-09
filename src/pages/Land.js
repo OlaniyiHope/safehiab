@@ -612,7 +612,8 @@ const Land = () => {
                   <h2>REQUEST A QUOTE</h2>
                   <div class="desc-text">
                     <p>
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                      Do you want to transport any of your goods to anywhere in
+                      Nigeria, then fill this
                     </p>
                   </div>
                   <form
@@ -898,10 +899,8 @@ const Land = () => {
             <div class="main-heading text-center">
               <h2>OUR GALLERY</h2>
               <p>
-                Cras varius purus in tempus porttitor ut dapibus efficitur
-                sagittis cras vitae lacus metus nunc vulputate facilisis nisi{" "}
-                <br /> eu lobortis erat consequat ut. Aliquam et justo ante. Nam
-                a cursus velit
+                Check out some of our works dones and more about us, we are
+                trusted and safe
               </p>
             </div>
 
@@ -1177,8 +1176,9 @@ const Land = () => {
 
                         <ul class="contact-info">
                           <li>
-                            <span class="icon fa fa-map-marker"></span> 60 Link
-                            Road Lhr. Pakistan 54770
+                            <span class="icon fa fa-map-marker"></span> i201,
+                            i202 Ogba Multipurpose Hall adjacent Sunday market,
+                            along wempco, Ogba, Ikeja lagos
                           </li>
                           <li>
                             <span class="icon fa fa-phone"></span> (042)

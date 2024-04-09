@@ -96,193 +96,366 @@ const Blog = () => {
         <Header />
 
         <section class="breadcrumbs-area parallex">
-        <div class="container">
+          <div class="container">
             <div class="row">
-                <div class="page-title">
-                    <div class="col-sm-12 col-md-6 page-heading text-left">
-                        <h3>Our feeds </h3>
-                        <h2>Latest News</h2>
-                    </div>
-                    <div class="col-sm-12 col-md-6 text-right">
-                        <ul class="breadcrumbs">
-                            <li><a href="#">home</a></li>
-                            <li><a href="#">pages</a></li>
-                            <li><a href="#">blog</a></li>
-                        </ul>
-                    </div>
+              <div class="page-title">
+                <div class="col-sm-12 col-md-6 page-heading text-left">
+                  <h3>Our feeds </h3>
+                  <h2>Latest News</h2>
                 </div>
+                <div class="col-sm-12 col-md-6 text-right">
+                  <ul class="breadcrumbs">
+                    <li>
+                      <a href="#">home</a>
+                    </li>
+                    <li>
+                      <a href="#">pages</a>
+                    </li>
+                    <li>
+                      <a href="#">blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </div>
-    </section>
+          </div>
+        </section>
 
-    <section id="blog" class="custom-padding">
-    <div class="container">
-     
-        <div class="row">
-            <div class="col-sm-12 col-xs-12 col-md-12">
-
-          
+        <section id="blog" class="custom-padding">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-xs-12 col-md-12">
                 <div class="col-md-4 col-sm-12 col-xs-12">
-                    <div class="news-box">
-                        <div class="news-thumb">
-                            <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html"><img alt="" class="img-responsive" src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/1.jpg" /></a>
-                            <div class="date"> <strong>21</strong>
-<span>Jun</span> </div>
-                        </div>
-                        <div class="news-detail">
-                            <h2><a title="" href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html">top benefits of hiring our logistics service</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo enean dolor sit amet, consectetuer.</p>
-                            <div class="entry-footer">
-                                <div class="post-meta">
-                                    <div class="post-admin"> <i class="icon-profile-male"></i>Posted by<a href="#">Admin</a> </div>
-                                    <div class="post-comment"> <i class="icon-chat"></i> <a href="#">217</a> </div>
-                                    <div class="post-like"> <i class="icon-heart"></i> <a href="#">130</a> </div>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="news-box">
+                    <div class="news-thumb">
+                      <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html">
+                        <img
+                          alt=""
+                          class="img-responsive"
+                          src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/1.jpg"
+                        />
+                      </a>
+                      <div class="date">
+                        {" "}
+                        <strong>21</strong>
+                        <span>Jun</span>{" "}
+                      </div>
                     </div>
+                    <div class="news-detail">
+                      <h2>
+                        <a
+                          title=""
+                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html"
+                        >
+                          top benefits of hiring our logistics service
+                        </a>
+                      </h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo enean dolor sit amet, consectetuer.
+                      </p>
+                      <div class="entry-footer">
+                        <div class="post-meta">
+                          <div class="post-admin">
+                            {" "}
+                            <i class="icon-profile-male"></i>Posted by
+                            <a href="#">Admin</a>{" "}
+                          </div>
+                          <div class="post-comment">
+                            {" "}
+                            <i class="icon-chat"></i> <a href="#">217</a>{" "}
+                          </div>
+                          <div class="post-like">
+                            {" "}
+                            <i class="icon-heart"></i> <a href="#">130</a>{" "}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 <div class="col-md-4 col-sm-12 col-xs-12">
-                    <div class="news-box">
-                        <div class="news-thumb">
-                            <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html"><img alt="" class="img-responsive" src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/2.jpg" /></a>
-                            <div class="date"> <strong>21</strong>
-<span>Jun</span> </div>
-                        </div>
-                        <div class="news-detail">
-                            <h2><a title="" href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html">top benefits of hiring our logistics service</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo enean dolor sit amet, consectetuer.</p>
-                            <div class="entry-footer">
-                                <div class="post-meta">
-                                    <div class="post-admin"> <i class="icon-profile-male"></i>Posted by<a href="#">Admin</a> </div>
-                                    <div class="post-comment"> <i class="icon-chat"></i> <a href="#">217</a> </div>
-                                    <div class="post-like"> <i class="icon-heart"></i> <a href="#">130</a> </div>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="news-box">
+                    <div class="news-thumb">
+                      <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html">
+                        <img
+                          alt=""
+                          class="img-responsive"
+                          src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/2.jpg"
+                        />
+                      </a>
+                      <div class="date">
+                        {" "}
+                        <strong>21</strong>
+                        <span>Jun</span>{" "}
+                      </div>
                     </div>
+                    <div class="news-detail">
+                      <h2>
+                        <a
+                          title=""
+                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html"
+                        >
+                          top benefits of hiring our logistics service
+                        </a>
+                      </h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo enean dolor sit amet, consectetuer.
+                      </p>
+                      <div class="entry-footer">
+                        <div class="post-meta">
+                          <div class="post-admin">
+                            {" "}
+                            <i class="icon-profile-male"></i>Posted by
+                            <a href="#">Admin</a>{" "}
+                          </div>
+                          <div class="post-comment">
+                            {" "}
+                            <i class="icon-chat"></i> <a href="#">217</a>{" "}
+                          </div>
+                          <div class="post-like">
+                            {" "}
+                            <i class="icon-heart"></i> <a href="#">130</a>{" "}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              
+
                 <div class="col-md-4 col-sm-12 col-xs-12">
-                    <div class="news-box">
-                        <div class="news-thumb">
-                            <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html"><img class="img-responsive" alt="" src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/3.jpg" /></a>
-                            <div class="date"> <strong>21</strong>
-<span>Jun</span> </div>
-                        </div>
-                        <div class="news-detail">
-                            <h2><a title="" href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html">top benefits of hiring our logistics service</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo enean dolor sit amet, consectetuer.</p>
-                            <div class="entry-footer">
-                                <div class="post-meta">
-                                    <div class="post-admin"> <i class="icon-profile-male"></i>Posted by<a href="#">Admin</a> </div>
-                                    <div class="post-comment"> <i class="icon-chat"></i> <a href="#">217</a> </div>
-                                    <div class="post-like"> <i class="icon-heart"></i> <a href="#">130</a> </div>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="news-box">
+                    <div class="news-thumb">
+                      <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html">
+                        <img
+                          class="img-responsive"
+                          alt=""
+                          src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/3.jpg"
+                        />
+                      </a>
+                      <div class="date">
+                        {" "}
+                        <strong>21</strong>
+                        <span>Jun</span>{" "}
+                      </div>
                     </div>
+                    <div class="news-detail">
+                      <h2>
+                        <a
+                          title=""
+                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html"
+                        >
+                          top benefits of hiring our logistics service
+                        </a>
+                      </h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo enean dolor sit amet, consectetuer.
+                      </p>
+                      <div class="entry-footer">
+                        <div class="post-meta">
+                          <div class="post-admin">
+                            {" "}
+                            <i class="icon-profile-male"></i>Posted by
+                            <a href="#">Admin</a>{" "}
+                          </div>
+                          <div class="post-comment">
+                            {" "}
+                            <i class="icon-chat"></i> <a href="#">217</a>{" "}
+                          </div>
+                          <div class="post-like">
+                            {" "}
+                            <i class="icon-heart"></i> <a href="#">130</a>{" "}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-      
 
                 <div class="clearfix"></div>
 
-
-             
                 <div class="col-md-4 col-sm-12 col-xs-12">
-                    <div class="news-box">
-                        <div class="news-thumb">
-                            <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html"><img alt="" class="img-responsive" src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/4.jpg" /></a>
-                            <div class="date"> <strong>21</strong>
-<span>Jun</span> </div>
-                        </div>
-                        <div class="news-detail">
-                            <h2><a title="" href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html">top benefits of hiring our logistics service</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo enean dolor sit amet, consectetuer.</p>
-                            <div class="entry-footer">
-                                <div class="post-meta">
-                                    <div class="post-admin"> <i class="icon-profile-male"></i>Posted by<a href="#">Admin</a> </div>
-                                    <div class="post-comment"> <i class="icon-chat"></i> <a href="#">217</a> </div>
-                                    <div class="post-like"> <i class="icon-heart"></i> <a href="#">130</a> </div>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="news-box">
+                    <div class="news-thumb">
+                      <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html">
+                        <img
+                          alt=""
+                          class="img-responsive"
+                          src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/4.jpg"
+                        />
+                      </a>
+                      <div class="date">
+                        {" "}
+                        <strong>21</strong>
+                        <span>Jun</span>{" "}
+                      </div>
                     </div>
+                    <div class="news-detail">
+                      <h2>
+                        <a
+                          title=""
+                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html"
+                        >
+                          top benefits of hiring our logistics service
+                        </a>
+                      </h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo enean dolor sit amet, consectetuer.
+                      </p>
+                      <div class="entry-footer">
+                        <div class="post-meta">
+                          <div class="post-admin">
+                            {" "}
+                            <i class="icon-profile-male"></i>Posted by
+                            <a href="#">Admin</a>{" "}
+                          </div>
+                          <div class="post-comment">
+                            {" "}
+                            <i class="icon-chat"></i> <a href="#">217</a>{" "}
+                          </div>
+                          <div class="post-like">
+                            {" "}
+                            <i class="icon-heart"></i> <a href="#">130</a>{" "}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
-           
                 <div class="col-md-4 col-sm-12 col-xs-12">
-                    <div class="news-box">
-                        <div class="news-thumb">
-                            <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html"><img alt="" class="img-responsive" src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/8.jpg" /></a>
-                            <div class="date"> <strong>21</strong>
-<span>Jun</span> </div>
-                        </div>
-                        <div class="news-detail">
-                            <h2><a title="" href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html">top benefits of hiring our logistics service</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo enean dolor sit amet, consectetuer.</p>
-                            <div class="entry-footer">
-                                <div class="post-meta">
-                                    <div class="post-admin"> <i class="icon-profile-male"></i>Posted by<a href="#">Admin</a> </div>
-                                    <div class="post-comment"> <i class="icon-chat"></i> <a href="#">217</a> </div>
-                                    <div class="post-like"> <i class="icon-heart"></i> <a href="#">130</a> </div>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="news-box">
+                    <div class="news-thumb">
+                      <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html">
+                        <img
+                          alt=""
+                          class="img-responsive"
+                          src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/8.jpg"
+                        />
+                      </a>
+                      <div class="date">
+                        {" "}
+                        <strong>21</strong>
+                        <span>Jun</span>{" "}
+                      </div>
                     </div>
+                    <div class="news-detail">
+                      <h2>
+                        <a
+                          title=""
+                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html"
+                        >
+                          top benefits of hiring our logistics service
+                        </a>
+                      </h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo enean dolor sit amet, consectetuer.
+                      </p>
+                      <div class="entry-footer">
+                        <div class="post-meta">
+                          <div class="post-admin">
+                            {" "}
+                            <i class="icon-profile-male"></i>Posted by
+                            <a href="#">Admin</a>{" "}
+                          </div>
+                          <div class="post-comment">
+                            {" "}
+                            <i class="icon-chat"></i> <a href="#">217</a>{" "}
+                          </div>
+                          <div class="post-like">
+                            {" "}
+                            <i class="icon-heart"></i> <a href="#">130</a>{" "}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              
+
                 <div class="col-md-4 col-sm-12 col-xs-12">
-                    <div class="news-box">
-                        <div class="news-thumb">
-                            <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html"><img class="img-responsive" alt="" src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/6.jpg" /></a>
-                            <div class="date"> <strong>21</strong>
-<span>Jun</span> </div>
-                        </div>
-                        <div class="news-detail">
-                            <h2><a title="" href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html">top benefits of hiring our logistics service</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo enean dolor sit amet, consectetuer.</p>
-                            <div class="entry-footer">
-                                <div class="post-meta">
-                                    <div class="post-admin"> <i class="icon-profile-male"></i>Posted by<a href="#">Admin</a> </div>
-                                    <div class="post-comment"> <i class="icon-chat"></i> <a href="#">217</a> </div>
-                                    <div class="post-like"> <i class="icon-heart"></i> <a href="#">130</a> </div>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="news-box">
+                    <div class="news-thumb">
+                      <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html">
+                        <img
+                          class="img-responsive"
+                          alt=""
+                          src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/6.jpg"
+                        />
+                      </a>
+                      <div class="date">
+                        {" "}
+                        <strong>21</strong>
+                        <span>Jun</span>{" "}
+                      </div>
                     </div>
+                    <div class="news-detail">
+                      <h2>
+                        <a
+                          title=""
+                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/blog-detail.html"
+                        >
+                          top benefits of hiring our logistics service
+                        </a>
+                      </h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo enean dolor sit amet, consectetuer.
+                      </p>
+                      <div class="entry-footer">
+                        <div class="post-meta">
+                          <div class="post-admin">
+                            {" "}
+                            <i class="icon-profile-male"></i>Posted by
+                            <a href="#">Admin</a>{" "}
+                          </div>
+                          <div class="post-comment">
+                            {" "}
+                            <i class="icon-chat"></i> <a href="#">217</a>{" "}
+                          </div>
+                          <div class="post-like">
+                            {" "}
+                            <i class="icon-heart"></i> <a href="#">130</a>{" "}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-           
 
                 <div class="clearfix"></div>
 
-            
                 <div class="text-center clearfix">
-                    <ul class="pagination ">
-                        <li>
-                            <a aria-label="Previous" href="#">
-                                <span aria-hidden="true">&lt;</span>
-                            </a>
-                        </li>
-                        <li><a href="#">1</a></li>
-                        <li class="active"><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li>
-                            <a aria-label="Next" href="#">
-                                <span aria-hidden="true">&gt;</span>
-                            </a>
-                        </li>
-                    </ul>
+                  <ul class="pagination ">
+                    <li>
+                      <a aria-label="Previous" href="#">
+                        <span aria-hidden="true">&lt;</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">1</a>
+                    </li>
+                    <li class="active">
+                      <a href="#">2</a>
+                    </li>
+                    <li>
+                      <a href="#">3</a>
+                    </li>
+                    <li>
+                      <a aria-label="Next" href="#">
+                        <span aria-hidden="true">&gt;</span>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-           
+              </div>
             </div>
-        </div>
-
- 
-    </div>
-
-</section>
+          </div>
+        </section>
         <footer class="footer-area">
           <div class="footer-content">
             <div class="container">
@@ -304,19 +477,20 @@ const Blog = () => {
 
                         <ul class="contact-info">
                           <li>
-                            <span class="icon fa fa-map-marker"></span> 60 Link
-                            Road Lhr. Pakistan 54770
+                            <span class="icon fa fa-map-marker"></span> i201,
+                            i202 Ogba Multipurpose Hall adjacent Sunday market,
+                            along wempco, Ogba, Ikeja lagos
                           </li>
                           <li>
-                            <span class="icon fa fa-phone"></span> (042)
-                            1234567890
+                            <span class="icon fa fa-phone"></span>
+                            09134777222, 08038763637
                           </li>
                           <li>
                             <span class="icon fa fa-envelope-o"></span>{" "}
-                            contant@scriptsbundle.com
+                            info@safehiab.com
                           </li>
                           <li>
-                            <span class="icon fa fa-fax"></span> (042) 1234 7777
+                            <span class="icon fa fa-fax"></span> 09134777222
                           </li>
                         </ul>
                         <div class="social-links-two clearfix">
@@ -345,19 +519,19 @@ const Blog = () => {
                       <div class="footer-widget links-widget">
                         <ul>
                           <li>
-                            <a href="#">Packaging And Storage</a>
+                            <a href="#">Transporting Gas tanks and cylinders</a>
                           </li>
                           <li>
-                            <a href="#">worldwide transport</a>
+                            <a href="#">Transporting containers and goods</a>
                           </li>
                           <li>
-                            <a href="#">Internation Air Freight</a>
+                            <a href="#">Transporting factory equipments</a>
                           </li>
                           <li>
-                            <a href="#">ground shipping</a>
+                            <a href="#">Transporting agricultural equipments</a>
                           </li>
                           <li>
-                            <a href="#">24/7 Support</a>
+                            <a href="#">Transporting kiosks</a>
                           </li>
                         </ul>
                       </div>
@@ -368,41 +542,30 @@ const Blog = () => {
                 <div class="col-md-6 col-sm-12 col-xs-12">
                   <div class="col-lg-7 col-sm-6 col-xs-12 column">
                     <div class="footer-widget news-widget">
-                      <h2>Latest News</h2>
-
-                      <div class="news-post">
-                        <div class="icon"></div>
-                        <div class="news-content">
-                          <figure class="image-thumb">
-                            <img
-                              src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/popular-2.jpg"
-                              alt=""
-                            />
-                          </figure>
-                          <a href="#">
-                            top benefits of hiring our professional logistics
-                            service
+                      <h2>Privacy Policy</h2>
+                      <ul>
+                        <li>
+                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/about.html">
+                            Our Terms
                           </a>
-                        </div>
-                        <div class="time">June 21, 2016</div>
-                      </div>
-
-                      <div class="news-post">
-                        <div class="icon"></div>
-                        <div class="news-content">
-                          <figure class="image-thumb">
-                            <img
-                              src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/popular-1.jpg"
-                              alt=""
-                            />
-                          </figure>
-                          <a href="#">
-                            top benefits of hiring our professional logistics
-                            service
+                        </li>
+                        <li>
+                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/team.html">
+                            Help center
                           </a>
-                        </div>
-                        <div class="time">June 21, 2016</div>
-                      </div>
+                        </li>
+                        <li>
+                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/services.html">
+                            Contact
+                          </a>
+                        </li>
+
+                        <li>
+                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/contact.html">
+                            Contact Us
+                          </a>
+                        </li>
+                      </ul>
                     </div>
                   </div>
 
@@ -411,29 +574,17 @@ const Blog = () => {
                       <h2>Site Links</h2>
                       <ul>
                         <li>
-                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/about.html">
-                            About Us
-                          </a>
+                          <a href="/about">About Us</a>
+                        </li>
+
+                        <li>
+                          <a href="/services">Our Services</a>
                         </li>
                         <li>
-                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/team.html">
-                            Our Team
-                          </a>
+                          <a href="/blog">Blog</a>
                         </li>
                         <li>
-                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/services.html">
-                            Our Services
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/index-7.html">
-                            Blog
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/contact.html">
-                            Contact Us
-                          </a>
+                          <a href="/contact">Contact Us</a>
                         </li>
                       </ul>
                     </div>

@@ -430,178 +430,164 @@ const Gallery = () => {
           </div>
         </section>
         <footer class="footer-area">
-          <div class="footer-content">
-            <div class="container">
-              <div class="row clearfix">
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                  <div class="row clearfix">
-                    <div class="col-lg-7 col-sm-6 col-xs-12 column">
-                      <div class="footer-widget about-widget">
-                        <div class="logo">
-                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/index.html">
-                            <img
-                              src={ran}
-                              style={{ width: "100px", height: "50px" }}
-                              class="img-responsive"
-                              alt=""
-                            />
-                          </a>
-                        </div>
-
-                        <ul class="contact-info">
-                          <li>
-                            <span class="icon fa fa-map-marker"></span> 60 Link
-                            Road Lhr. Pakistan 54770
-                          </li>
-                          <li>
-                            <span class="icon fa fa-phone"></span> (042)
-                            1234567890
-                          </li>
-                          <li>
-                            <span class="icon fa fa-envelope-o"></span>{" "}
-                            contant@scriptsbundle.com
-                          </li>
-                          <li>
-                            <span class="icon fa fa-fax"></span> (042) 1234 7777
-                          </li>
-                        </ul>
-                        <div class="social-links-two clearfix">
-                          {" "}
-                          <a href="#" class="facebook img-circle">
-                            <span class="fa fa-facebook-f"></span>
-                          </a>{" "}
-                          <a href="#" class="twitter img-circle">
-                            <span class="fa fa-twitter"></span>
-                          </a>{" "}
-                          <a href="#" class="google-plus img-circle">
-                            <span class="fa fa-google-plus"></span>
-                          </a>{" "}
-                          <a href="#" class="linkedin img-circle">
-                            <span class="fa fa-pinterest-p"></span>
-                          </a>{" "}
-                          <a href="#" class="linkedin img-circle">
-                            <span class="fa fa-linkedin"></span>
-                          </a>{" "}
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-5 col-sm-6 col-xs-12 column">
-                      <h2>Our Service</h2>
-                      <div class="footer-widget links-widget">
-                        <ul>
-                          <li>
-                            <a href="#">Packaging And Storage</a>
-                          </li>
-                          <li>
-                            <a href="#">worldwide transport</a>
-                          </li>
-                          <li>
-                            <a href="#">Internation Air Freight</a>
-                          </li>
-                          <li>
-                            <a href="#">ground shipping</a>
-                          </li>
-                          <li>
-                            <a href="#">24/7 Support</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="footer-content">
+          <div class="container">
+            <div class="row clearfix">
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="row clearfix">
                   <div class="col-lg-7 col-sm-6 col-xs-12 column">
-                    <div class="footer-widget news-widget">
-                      <h2>Latest News</h2>
-
-                      <div class="news-post">
-                        <div class="icon"></div>
-                        <div class="news-content">
-                          <figure class="image-thumb">
-                            <img
-                              src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/popular-2.jpg"
-                              alt=""
-                            />
-                          </figure>
-                          <a href="#">
-                            top benefits of hiring our professional logistics
-                            service
-                          </a>
-                        </div>
-                        <div class="time">June 21, 2016</div>
+                    <div class="footer-widget about-widget">
+                      <div class="logo">
+                        <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/index.html">
+                          <img
+                            src={ran}
+                            style={{ width: "100px", height: "50px" }}
+                            class="img-responsive"
+                            alt=""
+                          />
+                        </a>
                       </div>
 
-                      <div class="news-post">
-                        <div class="icon"></div>
-                        <div class="news-content">
-                          <figure class="image-thumb">
-                            <img
-                              src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/blog/popular-1.jpg"
-                              alt=""
-                            />
-                          </figure>
-                          <a href="#">
-                            top benefits of hiring our professional logistics
-                            service
-                          </a>
-                        </div>
-                        <div class="time">June 21, 2016</div>
+                      <ul class="contact-info">
+                        <li>
+                          <span class="icon fa fa-map-marker"></span> i201,
+                          i202 Ogba Multipurpose Hall adjacent Sunday market,
+                          along wempco, Ogba, Ikeja lagos
+                        </li>
+                        <li>
+                          <span class="icon fa fa-phone"></span>
+                          09134777222, 08038763637
+                        </li>
+                        <li>
+                          <span class="icon fa fa-envelope-o"></span>{" "}
+                          info@safehiab.com
+                        </li>
+                        <li>
+                          <span class="icon fa fa-fax"></span> 09134777222
+                        </li>
+                      </ul>
+                      <div class="social-links-two clearfix">
+                        {" "}
+                        <a href="#" class="facebook img-circle">
+                          <span class="fa fa-facebook-f"></span>
+                        </a>{" "}
+                        <a href="#" class="twitter img-circle">
+                          <span class="fa fa-twitter"></span>
+                        </a>{" "}
+                        <a href="#" class="google-plus img-circle">
+                          <span class="fa fa-google-plus"></span>
+                        </a>{" "}
+                        <a href="#" class="linkedin img-circle">
+                          <span class="fa fa-pinterest-p"></span>
+                        </a>{" "}
+                        <a href="#" class="linkedin img-circle">
+                          <span class="fa fa-linkedin"></span>
+                        </a>{" "}
                       </div>
                     </div>
                   </div>
 
                   <div class="col-lg-5 col-sm-6 col-xs-12 column">
+                    <h2>Our Service</h2>
                     <div class="footer-widget links-widget">
-                      <h2>Site Links</h2>
                       <ul>
                         <li>
-                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/about.html">
-                            About Us
-                          </a>
+                          <a href="#">Transporting Gas tanks and cylinders</a>
                         </li>
                         <li>
-                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/team.html">
-                            Our Team
-                          </a>
+                          <a href="#">Transporting containers and goods</a>
                         </li>
                         <li>
-                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/services.html">
-                            Our Services
-                          </a>
+                          <a href="#">Transporting factory equipments</a>
                         </li>
                         <li>
-                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/index-7.html">
-                            Blog
-                          </a>
+                          <a href="#">Transporting agricultural equipments</a>
                         </li>
                         <li>
-                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/contact.html">
-                            Contact Us
-                          </a>
+                          <a href="#">Transporting kiosks</a>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
 
-          <div class="footer-copyright">
-            <div class="auto-container clearfix">
-              <div class="copyright text-center">
-                Copyright 2024 &copy; SafeHiab
-                <a
-                  target="_blank"
-                  href="http://themeforest.net/user/scriptsbundle/portfolio"
-                ></a>{" "}
-                All Rights Reserved
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="col-lg-7 col-sm-6 col-xs-12 column">
+                <div class="footer-widget news-widget">
+                <h2>Privacy Policy</h2>
+                <ul>
+                  <li>
+                    <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/about.html">
+                      Our Terms
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/team.html">
+                      Help center
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/services.html">
+                      Contact
+                    </a>
+                  </li>
+              
+                  <li>
+                    <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/contact.html">
+                      Contact Us
+                    </a>
+                  </li>
+                </ul>
+              </div>
+                </div>
+
+                <div class="col-lg-5 col-sm-6 col-xs-12 column">
+                  <div class="footer-widget links-widget">
+                    <h2>Site Links</h2>
+                    <ul>
+                      <li>
+                        <a href="/about">
+                          About Us
+                        </a>
+                      </li>
+                 
+                      <li>
+                        <a href="/services">
+                          Our Services
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/blog">
+                          Blog
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/contact">
+                          Contact Us
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </footer>
+        </div>
+
+        <div class="footer-copyright">
+          <div class="auto-container clearfix">
+            <div class="copyright text-center">
+              Copyright 2024 &copy; SafeHiab
+              <a
+                target="_blank"
+                href="http://themeforest.net/user/scriptsbundle/portfolio"
+              ></a>{" "}
+              All Rights Reserved
+            </div>
+          </div>
+        </div>
+      </footer>
 
         <div
           data-target="#request-quote"

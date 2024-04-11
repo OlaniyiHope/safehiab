@@ -130,8 +130,8 @@ const Land = () => {
                 style={{
                   backgroundSize: "cover",
                   backgroundPosition: "center",
-                  width: "100%",
-                  height: "81px !important",
+                  // width: "100%",
+                  // height: "81px !important",
                 }}
               />
               <div
@@ -197,8 +197,8 @@ const Land = () => {
                 style={{
                   backgroundSize: "cover",
                   backgroundPosition: "center",
-                  width: "100%",
-                  height: "481px !important",
+                  // width: "100%",
+                  // height: "481px !important",
                 }}
               />
               <div
@@ -264,8 +264,8 @@ const Land = () => {
                 style={{
                   backgroundSize: "cover",
                   backgroundPosition: "center",
-                  width: "100%",
-                  height: "481px !important",
+                  // width: "100%",
+                  // height: "481px !important",
                 }}
               />
               <div
@@ -332,8 +332,8 @@ const Land = () => {
                 style={{
                   backgroundSize: "cover",
                   backgroundPosition: "center",
-                  width: "100%",
-                  height: "481px !important",
+                  // width: "100%",
+                  // height: "481px !important",
                 }}
               />
               <div
@@ -525,8 +525,8 @@ const Land = () => {
                     </div>
                     <h4>Transporting factory equipments</h4>
                     <p>
-                      We have the right caring, experience and dedicated
-                      professional for you.
+                      Generator, air conditioners, plastics, aluminium, steel,
+                      CNBC machines etc
                     </p>
                   </div>
                 </div>
@@ -537,8 +537,7 @@ const Land = () => {
                     </div>
                     <h4>Transporting Gas Tanks and Cylinder</h4>
                     <p>
-                      We have the right caring, experience and dedicated
-                      professional for you.
+                      We help in the transportation of gas tanks and cylinders
                     </p>
                   </div>
                 </div>
@@ -547,10 +546,11 @@ const Land = () => {
                     <div className="icons">
                       <FiTruck style={{ width: "150px", height: "50px" }} />
                     </div>
-                    <h4>Transporting Container</h4>
+                    <h4>Transporting agricultural equipments/machineries</h4>
                     <p>
-                      We have the right caring, experience and dedicated
-                      professional for you.
+                      Examples are; Tractors, harvesters, large machineries,
+                      seed drills, fertilizer spreaders, trailrs, forklifts nad
+                      other equipments .
                     </p>
                   </div>
                 </div>
@@ -561,8 +561,8 @@ const Land = () => {
                     </div>
                     <h4>Transporting Goods(Boat, engines etc)</h4>
                     <p>
-                      We have the right caring, experience and dedicated
-                      professional for you.
+                      We help in the transportion of goods from any location to
+                      any location in Nigeria, boats, engines etc
                     </p>
                   </div>
                 </div>

@@ -133,8 +133,8 @@ const Services = () => {
                     </div>
                     <h4>Handling Simple to Complex Deliveries</h4>
                     <p>
-                      We have the right caring, experience and dedicated
-                      professional for you.
+                      Examples are raw materials, carrying of boat, kiosks,
+                      tanks , machines etc
                     </p>
                   </div>
                 </div>
@@ -147,8 +147,8 @@ const Services = () => {
                     </div>
                     <h4>Transporting Goods(Boat, engines etc)</h4>
                     <p>
-                      We have the right caring, experience and dedicated
-                      professional for you.
+                      We help in the transportion of goods from any location to
+                      any location in Nigeria, boats, engines etc
                     </p>
                   </div>
                 </div>
@@ -161,8 +161,8 @@ const Services = () => {
                     </div>
                     <h4>Transporting Container</h4>
                     <p>
-                      We have the right caring, experience and dedicated
-                      professional for you.
+                      We help to mobilize your containers to any where in
+                      Nigeria
                     </p>
                   </div>
                 </div>
@@ -177,8 +177,9 @@ const Services = () => {
                     </div>
                     <h4>Transporting agricultural equipments/machineries</h4>
                     <p>
-                      We have the right caring, experience and dedicated
-                      professional for you.
+                      Examples are; Tractors, harvesters, large machineries,
+                      seed drills, fertilizer spreaders, trailrs, forklifts nad
+                      other equipments .
                     </p>
                   </div>
                 </div>
@@ -191,8 +192,8 @@ const Services = () => {
                     </div>
                     <h4>Transporting factory equipments</h4>
                     <p>
-                      We have the right caring, experience and dedicated
-                      professional for you.
+                      Generator, air conditioners, plastics, aluminium, steel,
+                      CNBC machines etc
                     </p>
                   </div>
                 </div>
@@ -204,10 +205,7 @@ const Services = () => {
                       <i class="flaticon-delivery-truck-with-packages-behind"></i>
                     </div>
                     <h4>Transporting turbines </h4>
-                    <p>
-                      We have the right caring, experience and dedicated
-                      professional for you.
-                    </p>
+                    <p>We have in the transportation of turbines</p>
                   </div>
                 </div>
                 <div class="clearfix"></div>
@@ -218,10 +216,7 @@ const Services = () => {
                       <i class="flaticon-international-delivery-symbol"></i>
                     </div>
                     <h4>Transporting kiosks</h4>
-                    <p>
-                      We have the right caring, experience and dedicated
-                      professional for you.
-                    </p>
+                    <p>We have in th transportation of kiosks</p>
                   </div>
                 </div>
 
@@ -233,8 +228,7 @@ const Services = () => {
                     </div>
                     <h4>Transporting Sculptures/statues</h4>
                     <p>
-                      We have the right caring, experience and dedicated
-                      professional for you.
+                      We help in the transportation of Sculptures or statues
                     </p>
                   </div>
                 </div>
@@ -247,8 +241,7 @@ const Services = () => {
                     </div>
                     <h4>Transporting Gas Tanks and Cylinder</h4>
                     <p>
-                      We have the right caring, experience and dedicated
-                      professional for you.
+                      We help in the transportation of gas tanks and cylinders
                     </p>
                   </div>
                 </div>

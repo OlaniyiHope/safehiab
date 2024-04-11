@@ -64,4 +64,7 @@
   .carousel .slider-wrapper .slider {
     height: 481px; /* Adjust the height as needed */
   }
+  .revs img {
+    height: 481px;
+  }
 }

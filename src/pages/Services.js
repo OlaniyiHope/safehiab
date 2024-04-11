@@ -205,7 +205,7 @@ const Services = () => {
                       <i class="flaticon-delivery-truck-with-packages-behind"></i>
                     </div>
                     <h4>Transporting turbines </h4>
-                    <p>We have in the transportation of turbines</p>
+                    <p>We help in the transportation of turbines</p>
                   </div>
                 </div>
                 <div class="clearfix"></div>

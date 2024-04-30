@@ -155,7 +155,11 @@ const Services = () => {
                   <div class="services-grid">
                     <div class="icons">
                       {" "}
-                      <FontAwesomeIcon icon={faBox} className="fa-box" />
+                      <FontAwesomeIcon
+                        icon={faTruck}
+                        className="fa-truck"
+                        style={{ width: "100px", height: "60px" }}
+                      />
                     </div>
                     <h4>Handling Simple to Complex Deliveries</h4>
                     <p>
@@ -169,7 +173,11 @@ const Services = () => {
                   <div class="services-grid">
                     <div class="icons">
                       {" "}
-                      <FontAwesomeIcon icon={faShip} className="fa-ship" />
+                      <FontAwesomeIcon
+                        icon={faTruck}
+                        className="fa-truck"
+                        style={{ width: "100px", height: "60px" }}
+                      />
                     </div>
                     <h4>Transporting Goods(Boat, engines etc)</h4>
                     <p>
@@ -183,7 +191,11 @@ const Services = () => {
                   <div class="services-grid">
                     <div class="icons">
                       {" "}
-                      <FontAwesomeIcon icon={faTruck} className="fa-truck" />
+                      <FontAwesomeIcon
+                        icon={faTruck}
+                        className="fa-truck"
+                        style={{ width: "100px", height: "60px" }}
+                      />
                     </div>
                     <h4>Transporting Container</h4>
                     <p>
@@ -199,7 +211,11 @@ const Services = () => {
                   <div class="services-grid">
                     <div class="icons">
                       {" "}
-                      <i class="flaticon-view-symbol-on-delivery-opened-box"></i>
+                      <FontAwesomeIcon
+                        icon={faTruck}
+                        className="fa-truck"
+                        style={{ width: "100px", height: "60px" }}
+                      />
                     </div>
                     <h4>Transporting agricultural equipments/machineries</h4>
                     <p>
@@ -214,7 +230,11 @@ const Services = () => {
                   <div class="services-grid">
                     <div class="icons">
                       {" "}
-                      <i class="flaticon-sea-ship-with-containers"></i>
+                      <FontAwesomeIcon
+                        icon={faTruck}
+                        className="fa-truck"
+                        style={{ width: "100px", height: "60px" }}
+                      />
                     </div>
                     <h4>Transporting factory equipments</h4>
                     <p>
@@ -228,7 +248,11 @@ const Services = () => {
                   <div class="services-grid">
                     <div class="icons">
                       {" "}
-                      <i class="flaticon-delivery-truck-with-packages-behind"></i>
+                      <FontAwesomeIcon
+                        icon={faTruck}
+                        className="fa-truck"
+                        style={{ width: "100px", height: "60px" }}
+                      />
                     </div>
                     <h4>Transporting turbines </h4>
                     <p>We help in the transportation of turbines</p>
@@ -239,7 +263,11 @@ const Services = () => {
                   <div class="services-grid">
                     <div class="icons">
                       {" "}
-                      <i class="flaticon-international-delivery-symbol"></i>
+                      <FontAwesomeIcon
+                        icon={faTruck}
+                        className="fa-truck"
+                        style={{ width: "100px", height: "60px" }}
+                      />
                     </div>
                     <h4>Transporting kiosks</h4>
                     <p>We have in th transportation of kiosks</p>
@@ -250,7 +278,11 @@ const Services = () => {
                   <div class="services-grid">
                     <div class="icons">
                       {" "}
-                      <i class="flaticon-logistics-delivery-truck-in-movement"></i>
+                      <FontAwesomeIcon
+                        icon={faTruck}
+                        className="fa-truck"
+                        style={{ width: "100px", height: "60px" }}
+                      />
                     </div>
                     <h4>Transporting Sculptures/statues</h4>
                     <p>
@@ -263,7 +295,11 @@ const Services = () => {
                   <div class="services-grid">
                     <div class="icons">
                       {" "}
-                      <i class="flaticon-24-hours-symbol"></i>
+                      <FontAwesomeIcon
+                        icon={faTruck}
+                        className="fa-truck"
+                        style={{ width: "100px", height: "60px" }}
+                      />
                     </div>
                     <h4>Transporting Gas Tanks and Cylinder</h4>
                     <p>

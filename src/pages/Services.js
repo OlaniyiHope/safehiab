@@ -158,7 +158,7 @@ const Services = () => {
                       <FontAwesomeIcon
                         icon={faTruck}
                         className="fa-truck"
-                        style={{ width: "100px", height: "60px" }}
+                        style={{ width: "100px", height: "59px" }}
                       />
                     </div>
                     <h4>Handling Simple to Complex Deliveries</h4>

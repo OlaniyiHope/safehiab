@@ -39,7 +39,7 @@ const Header = () => {
                 </div>
                 <div class="text">EMAIL</div>
                 <a href="mailt:contact@scriptsbundle.com">
-                  safehiab@gmail.com
+                  info@safehiab.com.ng
                 </a>{" "}
               </div>
 

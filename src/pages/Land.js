@@ -25,13 +25,22 @@ import seven from "./7.jpeg";
 import eight from "./8.jpeg";
 import { Helmet } from "react-helmet";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   faAngleLeft,
   faAngleRight,
+  faPhone,
   faEnvelope,
   faTruck,
+  faMapMarker,
   faHeadset,
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTwitter,
+  faInstagram,
+  faLinkedin,
+  faFacebookF,
+} from "@fortawesome/free-brands-svg-icons";
 import { FiTruck } from "react-icons/fi"; // Assuming you're using Feather Icons
 
 import ran from "./ran.png";
@@ -1214,38 +1223,65 @@ const Land = () => {
 
                         <ul class="contact-info">
                           <li>
-                            <span class="icon fa fa-map-marker"></span> i201,
-                            i202 Ogba Multipurpose Hall adjacent Sunday market,
-                            along wempco, Ogba, Ikeja lagos
+                            <FontAwesomeIcon
+                              icon={faMapMarker}
+                              className="icon"
+                            />
+                            i201, i202 Ogba Multipurpose Hall adjacent Sunday
+                            market, along wempco, Ogba, Ikeja lagos
                           </li>
                           <li>
-                            <span class="icon fa fa-phone"></span>
+                            <FontAwesomeIcon
+                              icon={faPhone}
+                              className="fa-phone"
+                            />
                             09134777222, 08038763637
                           </li>
                           <li>
-                            <span class="icon fa fa-envelope-o"></span>{" "}
-                            info@safehiab.com
-                          </li>
-                          <li>
-                            <span class="icon fa fa-fax"></span> 09134777222
+                            <FontAwesomeIcon
+                              icon={faEnvelope}
+                              className="fa-envelope"
+                            />
+                            info@safehiab.com.ng
                           </li>
                         </ul>
                         <div class="social-links-two clearfix">
                           {" "}
-                          <a href="#" class="facebook img-circle">
-                            <span class="fa fa-facebook-f"></span>
+                          <a
+                            href="https://facebook.com/safehiablogisticslimited"
+                            class="facebook img-circle"
+                          >
+                            <FontAwesomeIcon
+                              icon={faFacebookF}
+                              className="fa-facebook-f"
+                            />
                           </a>{" "}
-                          <a href="#" class="twitter img-circle">
-                            <span class="fa fa-twitter"></span>
+                          <a
+                            href="https://twitter.com/safehiablogisticslimited"
+                            class="twitter img-circle"
+                          >
+                            <FontAwesomeIcon
+                              icon={faTwitter}
+                              className="fa-twitter"
+                            />
                           </a>{" "}
-                          <a href="#" class="google-plus img-circle">
-                            <span class="fa fa-google-plus"></span>
+                          <a
+                            href="https://instagram.com/safehiablogisticslimited"
+                            class="google-plus img-circle"
+                          >
+                            <FontAwesomeIcon
+                              icon={faInstagram}
+                              className="fa-instagram"
+                            />
                           </a>{" "}
-                          <a href="#" class="linkedin img-circle">
-                            <span class="fa fa-pinterest-p"></span>
-                          </a>{" "}
-                          <a href="#" class="linkedin img-circle">
-                            <span class="fa fa-linkedin"></span>
+                          <a
+                            href="https://linkedin.com/in/safehiablogisticslimited"
+                            class="linkedin img-circle"
+                          >
+                            <FontAwesomeIcon
+                              icon={faLinkedin}
+                              className="fa-linkedin"
+                            />
                           </a>{" "}
                         </div>
                       </div>

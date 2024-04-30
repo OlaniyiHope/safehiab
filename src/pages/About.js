@@ -7,14 +7,34 @@ import trust2 from "./hull2.png";
 import trust3 from "./oneTree.jpeg";
 import trust4 from "./bbc.png";
 import videoSource from "./adv.mp4";
+
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the styles
 import Slider from "react-slick";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
+
+import {
+  faAngleLeft,
+  faAngleRight,
+  faHeadset,
+  faPhone,
+  faEnvelope,
+  faTruck,
+  faMapMarker,
+  faBox,
+  faShip,
+} from "@fortawesome/free-solid-svg-icons";
+
+import {
+  faTwitter,
+  faInstagram,
+  faLinkedin,
+  faFacebookF,
+} from "@fortawesome/free-brands-svg-icons";
 import ran from "./ran.png";
 import eight from "./8.jpeg";
 import { Helmet } from "react-helmet";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCog } from "@fortawesome/free-solid-svg-icons";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -73,7 +93,7 @@ const About = () => {
         <div class="color-switcher" id="choose_color">
           {" "}
           <a href="#." class="picker_close">
-            <i class="fa fa-gear"></i>
+            <FontAwesomeIcon icon={faCog} className="fa-gear" />
           </a>
           <h5>STYLE SWITCHER</h5>
           <div class="theme-colours">
@@ -226,7 +246,7 @@ const About = () => {
                 <div class="statistic-percent" data-perc="56">
                   <div class="facts-icons">
                     {" "}
-                    <span class="flaticon-woman-with-headset"></span>{" "}
+                    <FontAwesomeIcon icon={faHeadset} className="fa-headset" />
                   </div>
                   <div class="fact">
                     {" "}
@@ -240,7 +260,7 @@ const About = () => {
                 <div class="statistic-percent" data-perc="126">
                   <div class="facts-icons">
                     {" "}
-                    <span class="flaticon-commercial-delivery-symbol-of-a-list-on-clipboard-on-a-box-package"></span>{" "}
+                    <FontAwesomeIcon icon={faBox} className="fa-box" />
                   </div>
                   <div class="fact">
                     {" "}
@@ -254,7 +274,7 @@ const About = () => {
                 <div class="statistic-percent" data-perc="274">
                   <div class="facts-icons">
                     {" "}
-                    <span class="flaticon-free-delivery-truck"></span>{" "}
+                    <FontAwesomeIcon icon={faTruck} className="fa-truck" />
                   </div>
                   <div class="fact">
                     {" "}
@@ -268,7 +288,7 @@ const About = () => {
                 <div class="statistic-percent" data-perc="434">
                   <div class="facts-icons">
                     {" "}
-                    <span class="flaticon-ocean-transportation"></span>{" "}
+                    <FontAwesomeIcon icon={faShip} className="fa-ship" />
                   </div>
                   <div class="fact">
                     {" "}
@@ -398,38 +418,65 @@ const About = () => {
 
                         <ul class="contact-info">
                           <li>
-                            <span class="icon fa fa-map-marker"></span> i201,
-                            i202 Ogba Multipurpose Hall adjacent Sunday market,
-                            along wempco, Ogba, Ikeja lagos
+                            <FontAwesomeIcon
+                              icon={faMapMarker}
+                              className="icon"
+                            />
+                            i201, i202 Ogba Multipurpose Hall adjacent Sunday
+                            market, along wempco, Ogba, Ikeja lagos
                           </li>
                           <li>
-                            <span class="icon fa fa-phone"></span>
+                            <FontAwesomeIcon
+                              icon={faPhone}
+                              className="fa-phone"
+                            />
                             09134777222, 08038763637
                           </li>
                           <li>
-                            <span class="icon fa fa-envelope-o"></span>{" "}
-                            info@safehiab.com
-                          </li>
-                          <li>
-                            <span class="icon fa fa-fax"></span> 09134777222
+                            <FontAwesomeIcon
+                              icon={faEnvelope}
+                              className="fa-envelope"
+                            />
+                            info@safehiab.com.ng
                           </li>
                         </ul>
                         <div class="social-links-two clearfix">
                           {" "}
-                          <a href="#" class="facebook img-circle">
-                            <span class="fa fa-facebook-f"></span>
+                          <a
+                            href="https://facebook.com/safehiablogisticslimited"
+                            class="facebook img-circle"
+                          >
+                            <FontAwesomeIcon
+                              icon={faFacebookF}
+                              className="fa-facebook-f"
+                            />
                           </a>{" "}
-                          <a href="#" class="twitter img-circle">
-                            <span class="fa fa-twitter"></span>
+                          <a
+                            href="https://twitter.com/safehiablogisticslimited"
+                            class="twitter img-circle"
+                          >
+                            <FontAwesomeIcon
+                              icon={faTwitter}
+                              className="fa-twitter"
+                            />
                           </a>{" "}
-                          <a href="#" class="google-plus img-circle">
-                            <span class="fa fa-google-plus"></span>
+                          <a
+                            href="https://instagram.com/safehiablogisticslimited"
+                            class="google-plus img-circle"
+                          >
+                            <FontAwesomeIcon
+                              icon={faInstagram}
+                              className="fa-instagram"
+                            />
                           </a>{" "}
-                          <a href="#" class="linkedin img-circle">
-                            <span class="fa fa-pinterest-p"></span>
-                          </a>{" "}
-                          <a href="#" class="linkedin img-circle">
-                            <span class="fa fa-linkedin"></span>
+                          <a
+                            href="https://linkedin.com/in/safehiablogisticslimited"
+                            class="linkedin img-circle"
+                          >
+                            <FontAwesomeIcon
+                              icon={faLinkedin}
+                              className="fa-linkedin"
+                            />
                           </a>{" "}
                         </div>
                       </div>
@@ -535,7 +582,7 @@ const About = () => {
           class="quote-button hidden-xs"
         >
           <a class="btn btn-primary" href="javascript:void(0)">
-            <i class="fa fa-envelope"></i>
+            <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </div>
 

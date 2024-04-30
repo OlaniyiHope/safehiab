@@ -14,6 +14,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import ran from "./ran.png";
 import eight from "./8.jpeg";
+import { Helmet } from "react-helmet";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -61,6 +62,13 @@ const About = () => {
 
   return (
     <>
+      <Helmet>
+        <title>About Our Company - Safe Hiab</title>
+        <meta
+          name="description"
+          content="Learn about Safe Hiab, a reliable transportation company in Nigeria. Discover our mission, values, and services. Contact us for safe and efficient transportation solutions."
+        />
+      </Helmet>
       <body>
         <div class="color-switcher" id="choose_color">
           {" "}

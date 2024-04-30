@@ -23,7 +23,7 @@ import five from "./5.jpeg";
 import six from "./6.jpeg";
 import seven from "./7.jpeg";
 import eight from "./8.jpeg";
-
+import { Helmet } from "react-helmet";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleLeft,
@@ -113,6 +113,13 @@ const Land = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Safe Hiab - Efficient Logistic Services</title>
+        <meta
+          name="description"
+          content="Welcome to Safe Hiab, your reliable partner for efficient logistic services in Nigeria. We provide safe, on-time delivery of goods with our experienced team. Contact us now!"
+        />
+      </Helmet>
       <body>
         <Header />
         <div class="revs">

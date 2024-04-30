@@ -13,6 +13,7 @@ import Slider from "react-slick";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import ran from "./ran.png";
+import { Helmet } from "react-helmet";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -120,6 +121,13 @@ const Services = () => {
             </div>
           </div>
         </section>
+        <Helmet>
+          <title>Transportation Services in Nigeria - Safe Hiab</title>
+          <meta
+            name="description"
+            content="Explore our transportation services in Nigeria, including handling deliveries, transporting goods, containers, and more. Contact us for safe and reliable transportation solutions."
+          />
+        </Helmet>
 
         <section class="custom-padding services">
           <div class="container">

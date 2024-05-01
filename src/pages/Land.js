@@ -143,7 +143,7 @@ const Land = () => {
           >
             <div>
               <img
-                src={eleven}
+                src={on4}
                 alt=""
                 style={{
                   backgroundSize: "cover",
@@ -210,7 +210,7 @@ const Land = () => {
             </div>
             <div>
               <img
-                src={twelve}
+                src={on3}
                 alt=""
                 style={{
                   backgroundSize: "cover",
@@ -275,77 +275,7 @@ const Land = () => {
                 </a>
               </div>
             </div>
-            <div>
-              <iframe
-                src="https://res.cloudinary.com/dftygokow/video/upload/v1714485022/13_lkeyvb.mp4"
-                allowFullScreen
-                frameBorder="0"
-                scrolling="no"
-                style={{
-                  height: "100%",
-                  position: "relative",
-                  width: "100%",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              ></iframe>
-              <div
-                className="text-content"
-                style={{
-                  position: "absolute",
-                  top: "50%",
-                  left: "50%",
-                  color: "white",
-                  transform: "translate(-50%, -50%)",
-                  textAlign: "center",
-                }}
-              >
-                <h2
-                  className="htwo"
-                  style={{
-                    color: "white",
-                    textTransform: "uppercase",
-                    fontWeight: "800",
-                    fontSize: "20px",
-                    lineHeight: "62px",
-                    visibility: "inherit",
-                  }}
-                >
-                  We are professional
-                </h2>
-                <h3
-                  className="hthree"
-                  style={{
-                    color: "white",
-                    textTransform: "uppercase",
-                    fontWeight: "800",
-                    fontSize: "38px",
-                    lineHeight: "81px",
-                    visibility: "inherit",
-                  }}
-                >
-                  with Experience And Expertise
-                </h3>
-                <p
-                  style={{
-                    color: "white",
-                    fontSize: "17px",
-                    lineHeight: "33px",
-                  }}
-                >
-                  Safe Hiab is a professional logistic company, with experienced
-                  skill in the industry, such as expertise in handling specific
-                  types of goods
-                </p>
-                <a
-                  className="btn btn-colored btn-lg"
-                  href="contact"
-                  style={{ color: "white" }}
-                >
-                  Contact Now
-                </a>
-              </div>
-            </div>
+
             <div>
               <img
                 src={on5}

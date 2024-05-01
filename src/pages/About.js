@@ -86,7 +86,7 @@ const About = () => {
         <title>About Our Company - Safe Hiab</title>
         <meta
           name="description"
-          content="Learn about Safe Hiab, a reliable transportation company in Nigeria. Discover our mission, values, and services. Contact us for safe and efficient transportation solutions."
+          content=" Hiab Logistics and rental service in Lagos, Hiab Logistics and rental services in Nigeria, Truck rental in Nigeria, where to rent a truck in Lagos, where to rent a truck in Nigeria, companies that loads goods in Nigeria, conpanies that loads goods in Lagos, Learn about Safe Hiab, a reliable transportation company in Nigeria. Discover our mission, values, and services. Contact us for safe and efficient transportation solutions."
         />
       </Helmet>
       <body>

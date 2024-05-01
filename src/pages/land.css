@@ -68,3 +68,13 @@
     height: 481px;
   }
 }
+/* Remove width and padding restrictions for the video container */
+.text-content {
+  /* width: 80%; */ /* Remove or adjust width as needed */
+  /* padding: 0 10px; */ /* Remove or adjust padding as needed */
+}
+
+/* Set the video width to 100% */
+.text-content iframe {
+  width: 100%;
+}

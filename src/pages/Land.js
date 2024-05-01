@@ -13,6 +13,8 @@ import Slider from "react-slick";
 import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
 import one from "./1.jpeg";
 import on from "./11.png";
+import eleven from "./11.jpeg";
+import twelve from "./12.jpeg";
 import on5 from "./12.png";
 import on4 from "./13.png";
 import on3 from "./14.png";
@@ -141,7 +143,7 @@ const Land = () => {
           >
             <div>
               <img
-                src={on}
+                src={eleven}
                 alt=""
                 style={{
                   backgroundSize: "cover",
@@ -208,7 +210,7 @@ const Land = () => {
             </div>
             <div>
               <img
-                src={on3}
+                src={twelve}
                 alt=""
                 style={{
                   backgroundSize: "cover",
@@ -274,16 +276,19 @@ const Land = () => {
               </div>
             </div>
             <div>
-              <img
-                src={on4}
-                alt=""
+              <iframe
+                src="https://res.cloudinary.com/dftygokow/video/upload/v1714485022/13_lkeyvb.mp4"
+                allowFullScreen
+                frameBorder="0"
+                scrolling="no"
                 style={{
+                  height: "100%",
+                  position: "relative",
+                  width: "100%",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
-                  // width: "100%",
-                  // height: "481px !important",
                 }}
-              />
+              ></iframe>
               <div
                 className="text-content"
                 style={{

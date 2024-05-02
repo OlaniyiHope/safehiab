@@ -781,14 +781,14 @@ const Contact = () => {
                           </li>
                           <li>
                             <span class="icon fa fa-phone"></span>
-                            09134777222, 08038763637
+                            09134770477, 08038763637
                           </li>
                           <li>
                             <span class="icon fa fa-envelope-o"></span>{" "}
                             info@safehiab.com
                           </li>
                           <li>
-                            <span class="icon fa fa-fax"></span> 09134777222
+                            <span class="icon fa fa-fax"></span> 09134770477
                           </li>
                         </ul>
                         <div class="social-links-two clearfix">

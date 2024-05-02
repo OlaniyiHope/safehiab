@@ -1,9 +1,8 @@
-const express = require("express");
-const { renderToNodeStream } = require("react-dom/server");
-const { StaticRouter } = require("react-router-dom");
-const { matchRoutes } = require("react-router-config");
-const { SitemapStream, streamToPromise } = require("sitemap");
-const routes = require("./src/routes");
+import express from "express";
+
+import matchRoutes from "react-router-config";
+import { SitemapStream, streamToPromise } from "sitemap";
+import routes from "./src/routes";
 
 const app = express();
 

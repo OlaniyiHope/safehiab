@@ -508,7 +508,7 @@ const Blog = () => {
                               icon={faPhone}
                               className="fa-phone"
                             />
-                            09134777222, 08038763637
+                            09134770477, 08038763637
                           </li>
                           <li>
                             <FontAwesomeIcon

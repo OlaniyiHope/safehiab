@@ -49,7 +49,7 @@ const Header = () => {
                 </div>
                 <div class="text">Call Now</div>
                 <a class="location" href="#">
-                  09134777222
+                  09134770477
                 </a>{" "}
               </div>
               <div class="info-box">

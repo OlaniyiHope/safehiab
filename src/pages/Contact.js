@@ -1,12 +1,7 @@
 // ParentTable.js
 import React, { useState } from "react";
 import Nav from "./Nav";
-import vivid from "./vivid.jpg";
-import trust from "./pil2.png";
-import trust2 from "./hull2.png";
-import trust3 from "./oneTree.jpeg";
-import trust4 from "./bbc.png";
-import videoSource from "./adv.mp4";
+
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the styles
 import Slider from "react-slick";

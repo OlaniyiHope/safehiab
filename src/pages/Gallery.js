@@ -14,10 +14,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import ran from "./ran.png";
 import one from "./1.jpeg";
-import on from "./11.png";
+import on from "./11.jpeg";
 import on5 from "./12.png";
 import on4 from "./13.png";
 import on3 from "./14.png";
+import wa from "./wa.jpeg";
+import wa2 from "./wa2.jpeg";
 import two from "./2.jpeg";
 import three from "./3.jpeg";
 import four from "./4.jpeg";
@@ -165,244 +167,59 @@ const Gallery = () => {
               <ul id="portfolio-grid" class="three-column hover-two">
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={one} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" href={one}>
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={two} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" href="two">
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={three} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" href={three}>
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
 
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={four} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" href={four}>
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={five} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" href={five}>
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={six} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" href={six}>
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
 
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={seven} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" href="seven">
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
                     <img src={eight} alt="" />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a class="tt-lightbox" href="eight">
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </li>
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/9.jpg"
-                      alt=""
-                    />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/9.jpg"
-                        >
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
+                    <img src={wa} alt="" />
+                  </div>
+                </li>
+                <li class="portfolio-item gutter">
+                  <div class="portfolio">
+                    <img src={wa2} alt="" />
+                  </div>
+                </li>
+                <li class="portfolio-item gutter">
+                  <div class="portfolio">
+                    <img src={on} alt="" />
                   </div>
                 </li>
               </ul>

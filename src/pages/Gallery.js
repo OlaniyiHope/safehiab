@@ -235,7 +235,7 @@ const Gallery = () => {
                     <div class="col-lg-7 col-sm-6 col-xs-12 column">
                       <div class="footer-widget about-widget">
                         <div class="logo">
-                          <a href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/index.html">
+                          <a href="/">
                             <img
                               src={ran}
                               style={{ width: "100px", height: "50px" }}

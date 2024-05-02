@@ -35,7 +35,9 @@ import eight from "./8.jpeg";
 import { Helmet } from "react-helmet";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCog } from "@fortawesome/free-solid-svg-icons";
-
+import wa2 from "./wa2.jpeg";
+import wa from "./wa.jpeg";
+import on from "./11.jpeg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./land.css";
@@ -217,26 +219,20 @@ const About = () => {
               </div>
 
               <div class="col-md-5 col-sm-12 col-xs-12 our-gallery">
-                <a
-                  class="tt-lightbox"
-                  href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/about-company-1.png"
-                >
-                  {" "}
+                <a class="tt-lightbox" href="/">
                   <img
+                    src={wa2}
+                    // style={{ width: "100px", height: "50px" }}
                     class="img-responsive margin-bottom-30"
-                    alt="Image"
-                    src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/about-company-1.png"
+                    alt=""
                   />
                 </a>
-                <a
-                  class="tt-lightbox"
-                  href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/about-company-2.png"
-                >
+                <a class="tt-lightbox" href="/">
                   {" "}
                   <img
                     class="img-responsive margin-bottom-30"
                     alt="Image"
-                    src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/about-company-2.png"
+                    src={on}
                   />
                 </a>
               </div>

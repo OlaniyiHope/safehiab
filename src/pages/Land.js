@@ -22,6 +22,8 @@ import two from "./2.jpeg";
 import three from "./3.jpeg";
 import four from "./4.jpeg";
 import five from "./5.jpeg";
+import wa from "./wa.jpeg";
+import wa2 from "./wa2.jpeg";
 import six from "./6.jpeg";
 import seven from "./7.jpeg";
 import eight from "./8.jpeg";
@@ -932,34 +934,12 @@ const Land = () => {
                 </li>
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
-                    <div class="tt-overlay"></div>
-                    <img
-                      src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/9.jpg"
-                      alt=""
-                    />
-
-                    <div class="portfolio-info">
-                      <h3 class="project-title">Project Title</h3>
-                      <a href="#" class="links">
-                        App Design
-                      </a>
-                    </div>
-
-                    <ul class="portfolio-details">
-                      <li>
-                        <a
-                          class="tt-lightbox"
-                          href="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/portfolio/9.jpg"
-                        >
-                          <i class="fa fa-search"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-external-link"></i>
-                        </a>
-                      </li>
-                    </ul>
+                    <img src={wa} alt="" />
+                  </div>
+                </li>
+                <li class="portfolio-item gutter">
+                  <div class="portfolio">
+                    <img src={wa2} alt="" />
                   </div>
                 </li>
               </ul>

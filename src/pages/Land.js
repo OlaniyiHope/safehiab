@@ -12,7 +12,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the st
 import Slider from "react-slick";
 import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
 import one from "./1.jpeg";
-import on from "./11.png";
+import on from "./11.jpeg";
 import eleven from "./11.jpeg";
 import twelve from "./12.jpeg";
 import on5 from "./12.png";
@@ -940,6 +940,11 @@ const Land = () => {
                 <li class="portfolio-item gutter">
                   <div class="portfolio">
                     <img src={wa2} alt="" />
+                  </div>
+                </li>
+                <li class="portfolio-item gutter">
+                  <div class="portfolio">
+                    <img src={on} alt="" />
                   </div>
                 </li>
               </ul>

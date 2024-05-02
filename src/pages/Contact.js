@@ -13,7 +13,7 @@ import Slider from "react-slick";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import ran from "./ran.png";
-
+import on from "./11.jpeg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./land.css";
@@ -745,10 +745,7 @@ const Contact = () => {
               </div>
 
               <div class="col-md-5 col-sm-12 col-xs-12">
-                <img
-                  alt=""
-                  src="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/images/delivery_man.png"
-                />
+                <img alt="Image" src={on} />
               </div>
               <div class="clearfix"></div>
             </div>

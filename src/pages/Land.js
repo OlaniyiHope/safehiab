@@ -377,7 +377,7 @@ const Land = () => {
                   <div class="services-grid-1">
                     <div class="service-image">
                       <a href="#">
-                        <img alt="" src={four} />
+                        <img alt="" src={wa2} />
                       </a>
                     </div>
                     <div class="services-text">

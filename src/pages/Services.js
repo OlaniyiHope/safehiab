@@ -284,7 +284,9 @@ const Services = () => {
                       />
                     </div>
                     <h4>Transporting kiosks</h4>
-                    <p>We have in th transportation of kiosks</p>
+                    <p>
+                      We help in hte transportation of kiosks of different sizes
+                    </p>
                   </div>
                 </div>
 

@@ -102,6 +102,9 @@ const Header = () => {
                   <li class="  hidden-sm">
                     <a href="our-blog">Blog</a>
                   </li>
+                  <li class="  hidden-sm">
+                    <a href="registration">Registration</a>
+                  </li>
                 </ul>
                 <a href="contact" class="btn btn-primary pull-right">
                   Contact Us

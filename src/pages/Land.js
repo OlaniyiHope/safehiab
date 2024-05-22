@@ -133,6 +133,7 @@ const Land = () => {
           content="Welcome to Safe Hiab, your reliable partner for efficient logistic services in Nigeria. We provide safe, on-time delivery of goods with our experienced team. Contact us now!"
         />
       </Helmet>
+
       <body>
         <Header />
         <div class="revs">

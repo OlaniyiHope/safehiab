@@ -5,6 +5,7 @@ import Services from "./pages/Services";
 import Gallery from "./pages/Gallery";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import Registration from "./pages/Registration";
 
 // ----------------------------------------------------------------------
 
@@ -33,6 +34,10 @@ export default function Router() {
     {
       path: "/contact",
       element: <Contact />,
+    },
+    {
+      path: "/registration",
+      element: <Registration />,
     },
   ]);
 

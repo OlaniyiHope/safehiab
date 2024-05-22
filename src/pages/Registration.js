@@ -1,21 +1,75 @@
 // ParentTable.js
 import React, { useState } from "react";
 import Nav from "./Nav";
-
+import { Link, useNavigate } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the styles
 import Slider from "react-slick";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import ran from "./ran.png";
+import axios from "axios";
 import on from "./11.jpeg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./land.css";
 import TopNav from "./TopNav";
 import Header from "./Header";
 import Testimonial from "./Testimonial";
+const initialState = {
+  fullName: "",
+  email: "",
+  phone: "",
+  companyAddress: "",
+  companyName: "",
+  message: "",
+};
 const Registration = () => {
+  const [formData, setFormData] = useState(initialState);
+  const { fullName, email, phone, companyAddress, companyName, message } =
+    formData;
+
+  const [showModal, setShowModal] = useState(false);
+  const navigate = useNavigate();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = {
+      fullName,
+      email,
+      phone,
+      companyAddress,
+      companyName,
+      message,
+    };
+    try {
+      await axios.post(
+        `https://hiabapi-00d342930204.herokuapp.com/api/registration`,
+        {
+          ...formData,
+        }
+      );
+
+      // navigate("/dashboard/admin");
+      toast.success("User successfully created");
+      setShowModal(true);
+    } catch (err) {
+      console.error("Error registering student:", err);
+      toast.error("Unable to create user");
+    }
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+    navigate("/");
+  };
+
   const settings = {
     dots: false,
     infinite: true,
@@ -134,14 +188,31 @@ const Registration = () => {
                 </div>
 
                 <div class="row margin-top-50">
-                  <form action="#">
-                    <div class="col-sm-12 md-12 col-xs-12 clearfix">
+                  <form>
+                    <div class="col-sm-12 md-12 col-xs-12 ">
                       <div class="form-group">
                         <label>Full Name</label>
                         <input
                           type="text"
                           placeholder="Enter your full name"
                           class="form-control"
+                          onChange={handleChange}
+                          name="fullName"
+                          value={formData.fullName}
+                          required
+                        />
+                      </div>
+                    </div>{" "}
+                    <div class="col-sm-12 md-12 col-xs-12 ">
+                      <div class="form-group">
+                        <label>Email Address</label>
+                        <input
+                          type="text"
+                          placeholder="Enter your email address"
+                          class="form-control"
+                          value={formData.email}
+                          name="email"
+                          onChange={handleChange}
                           required
                         />
                       </div>
@@ -150,21 +221,13 @@ const Registration = () => {
                       <div class="form-group">
                         <label>Phone Number</label>
                         <input
-                          type="text"
+                          type="number"
                           placeholder="Enter your phone number"
                           class="form-control"
+                          value={formData.phone}
                           required
-                        />
-                      </div>
-                    </div>
-                    <div class="col-sm-12 md-12 col-xs-12 clearfix">
-                      <div class="form-group">
-                        <label>Email Address</label>
-                        <input
-                          type="text"
-                          placeholder="Enter your email address"
-                          class="form-control"
-                          required
+                          name="phone"
+                          onChange={handleChange}
                         />
                       </div>
                     </div>
@@ -182,6 +245,9 @@ const Registration = () => {
                           type="text"
                           placeholder="Company Name"
                           class="form-control"
+                          value={formData.companyName}
+                          onChange={handleChange}
+                          name="companyName"
                           required
                         />
                       </div>
@@ -193,6 +259,9 @@ const Registration = () => {
                           type="text"
                           placeholder="Company Address"
                           class="form-control"
+                          name="companyAddress"
+                          onChange={handleChange}
+                          value={formData.companyAddress}
                           required
                         />
                       </div>
@@ -203,7 +272,10 @@ const Registration = () => {
                         <textarea
                           placeholder="Write your message for us"
                           class="form-control"
+                          value={formData.message}
                           rows="6"
+                          name="message"
+                          onChange={handleChange}
                         ></textarea>
                       </div>
                     </div>
@@ -213,6 +285,7 @@ const Registration = () => {
                         type="submit"
                         id="yes"
                         class="btn btn-primary btn-sm"
+                        onClick={handleSubmit}
                       >
                         Register
                       </button>
@@ -381,316 +454,28 @@ const Registration = () => {
             </div>
           </div>
         </footer>
-
-        <div
-          data-target="#request-quote"
-          data-toggle="modal"
-          class="quote-button hidden-xs"
-        >
-          <a class="btn btn-primary" href="javascript:void(0)">
-            <i class="fa fa-envelope"></i>
-          </a>
-        </div>
-
-        <div
-          class="modal fade "
-          id="request-quote"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="myModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-body">
-                <div class="quotation-box-1">
-                  <h2>REQUEST A QUOTE</h2>
-                  <div class="desc-text">
-                    <p>
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-                    </p>
-                  </div>
-                  <form
-                    action="https://templates.scriptsbundle.com/logistic-pro/demo/logistic-pro/contact.html"
-                    method="post"
-                  >
-                    <div class="row clearfix">
-                      <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                        <input
-                          class="form-control"
-                          type="text"
-                          placeholder="Your Name"
-                          value=""
-                          name="your-name"
-                        />
-                      </div>
-
-                      <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                        <input
-                          class="form-control"
-                          type="text"
-                          placeholder="Subject"
-                          value=""
-                          name="your-subject"
-                        />
-                      </div>
-
-                      <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                        <input
-                          class="form-control"
-                          type="email"
-                          placeholder="Email Address"
-                          value=""
-                          name="your-email"
-                        />
-                      </div>
-
-                      <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                        <select
-                          class="quote-select form-control"
-                          name="sel-location"
-                        >
-                          <option>Select Location</option>
-                          <option>Afghanistan</option>
-                          <option>Albania</option>
-                          <option>Algeria</option>
-                          <option>American Samoa</option>
-                          <option>Andorra</option>
-                          <option>Angola</option>
-                          <option>Anguilla</option>
-                          <option>Antarctica</option>
-                          <option>Argentina</option>
-                          <option>Armenia</option>
-                          <option>Aruba</option>
-                          <option>Australia</option>
-                          <option>Austria</option>
-                          <option>Azerbaijan</option>
-                          <option>Bahamas</option>
-                          <option>Bahrain</option>
-                          <option>Bangladesh</option>
-                          <option>Barbados</option>
-                          <option>Belarus</option>
-                          <option>Belgium</option>
-                          <option>Belize</option>
-                          <option>Benin</option>
-                          <option>Bermuda</option>
-                          <option>Bhutan</option>
-                          <option>Bolivia</option>
-                          <option>Botswana</option>
-                          <option>Bouvet Island</option>
-                          <option>Brazil</option>
-                          <option>Brunei Darussalam</option>
-                          <option>Bulgaria</option>
-                          <option>Burkina Faso</option>
-                          <option>Burundi</option>
-                          <option>Cambodia</option>
-                          <option>Cameroon</option>
-                          <option>Canada</option>
-                          <option>Cape Verde</option>
-                          <option>Cayman Islands</option>
-                          <option>Chad</option>
-                          <option>Chile</option>
-                          <option>China</option>
-                          <option>Christmas Island</option>
-                          <option>Cocos Islands</option>
-                          <option>Colombia</option>
-                          <option>Comoros</option>
-                          <option>Congo</option>
-                          <option>Cook Islands</option>
-                          <option>Costa Rica</option>
-                          <option>Cote d'Ivoire</option>
-                          <option>Croatia</option>
-                          <option>Cuba</option>
-                          <option>Cyprus</option>
-                          <option>Czech Republic</option>
-                          <option>Denmark</option>
-                          <option>Djibouti</option>
-                          <option>Dominica</option>
-                          <option>Dominican Republic</option>
-                          <option>Ecuador</option>
-                          <option>Egypt</option>
-                          <option>El Salvador</option>
-                          <option>Equatorial Guinea</option>
-                          <option>Eritrea</option>
-                          <option>Estonia</option>
-                          <option>Ethiopia</option>
-                          <option>Faroe Islands</option>
-                          <option>Fiji</option>
-                          <option>Finland</option>
-                          <option>France</option>
-                          <option>French Guiana</option>
-                          <option>Gabon</option>
-                          <option>Gambia</option>
-                          <option>Georgia</option>
-                          <option>Germany</option>
-                          <option>Ghana</option>
-                          <option>Gibraltar</option>
-                          <option>Greece</option>
-                          <option>Greenland</option>
-                          <option>Grenada</option>
-                          <option>Guadeloupe</option>
-                          <option>Guam</option>
-                          <option>Guatemala</option>
-                          <option>Guinea</option>
-                          <option>Guinea-Bissau</option>
-                          <option>Guyana</option>
-                          <option>Haiti</option>
-                          <option>Honduras</option>
-                          <option>Hong Kong</option>
-                          <option>Hungary</option>
-                          <option>Iceland</option>
-                          <option>India</option>
-                          <option>Indonesia</option>
-                          <option>Iran</option>
-                          <option>Iraq</option>
-                          <option>Ireland</option>
-                          <option>Israel</option>
-                          <option>Italy</option>
-                          <option>Jamaica</option>
-                          <option>Japan</option>
-                          <option>Jordan</option>
-                          <option>Kazakhstan</option>
-                          <option>Kenya</option>
-                          <option>Kiribati</option>
-                          <option>Kuwait</option>
-                          <option>Kyrgyzstan</option>
-                          <option>Laos</option>
-                          <option>Latvia</option>
-                          <option>Lebanon</option>
-                          <option>Lesotho</option>
-                          <option>Liberia</option>
-                          <option>Libya</option>
-                          <option>Liechtenstein</option>
-                          <option>Lithuania</option>
-                          <option>Luxembourg</option>
-                          <option>Macao</option>
-                          <option>Madagascar</option>
-                          <option>Malawi</option>
-                          <option>Malaysia</option>
-                          <option>Maldives</option>
-                          <option>Mali</option>
-                          <option>Malta</option>
-                          <option>Marshall Islands</option>
-                          <option>Martinique</option>
-                          <option>Mauritania</option>
-                          <option>Mauritius</option>
-                          <option>Mayotte</option>
-                          <option>Mexico</option>
-                          <option>Micronesia</option>
-                          <option>Moldova</option>
-                          <option>Monaco</option>
-                          <option>Mongolia</option>
-                          <option>Montenegro</option>
-                          <option>Montserrat</option>
-                          <option>Morocco</option>
-                          <option>Mozambique</option>
-                          <option>Myanmar</option>
-                          <option>Namibia</option>
-                          <option>Nauru</option>
-                          <option>Nepal</option>
-                          <option>Netherlands</option>
-                          <option>New Caledonia</option>
-                          <option>New Zealand</option>
-                          <option>Nicaragua</option>
-                          <option>Niger</option>
-                          <option>Nigeria</option>
-                          <option>Norfolk Island</option>
-                          <option>North Korea</option>
-                          <option>Norway</option>
-                          <option>Oman</option>
-                          <option>Pakistan</option>
-                          <option>Palau</option>
-                          <option>Panama</option>
-                          <option>Papua New Guinea</option>
-                          <option>Paraguay</option>
-                          <option>Peru</option>
-                          <option>Philippines</option>
-                          <option>Pitcairn</option>
-                          <option>Poland</option>
-                          <option>Portugal</option>
-                          <option>Puerto Rico</option>
-                          <option>Qatar</option>
-                          <option>Romania</option>
-                          <option>Russian Federation</option>
-                          <option>Rwanda</option>
-                          <option>Saint Helena</option>
-                          <option>Saint Lucia</option>
-                          <option>Samoa</option>
-                          <option>San Marino</option>
-                          <option>Sao Tome and Principe</option>
-                          <option>Saudi Arabia</option>
-                          <option>Senegal</option>
-                          <option>Serbia</option>
-                          <option>Seychelles</option>
-                          <option>Sierra Leone</option>
-                          <option>Singapore</option>
-                          <option>Slovakia</option>
-                          <option>Slovenia</option>
-                          <option>Solomon Islands</option>
-                          <option>Somalia</option>
-                          <option>South Africa</option>
-                          <option>South Georgia</option>
-                          <option>South Korea</option>
-                          <option>Spain</option>
-                          <option>Sri Lanka</option>
-                          <option>Sudan</option>
-                          <option>Suriname</option>
-                          <option>Swaziland</option>
-                          <option>Sweden</option>
-                          <option>Switzerland</option>
-                          <option>Taiwan</option>
-                          <option>Tajikistan</option>
-                          <option>Tanzania</option>
-                          <option>Thailand</option>
-                          <option>Timor-Leste</option>
-                          <option>Togo</option>
-                          <option>Tokelau</option>
-                          <option>Tonga</option>
-                          <option>Tunisia</option>
-                          <option>Turkey</option>
-                          <option>Turkmenistan</option>
-                          <option>Tuvalu</option>
-                          <option>Uganda</option>
-                          <option>Ukraine</option>
-                          <option>United Arab Emirates</option>
-                          <option>United Kingdom</option>
-                          <option>United States</option>
-                          <option>Uruguay</option>
-                          <option>Uzbekistan</option>
-                          <option>Vanuatu</option>
-                          <option>Vatican City</option>
-                          <option>Venezuela</option>
-                          <option>Vietnam</option>
-                          <option>Wallis and Futuna</option>
-                          <option>Western Sahara</option>
-                          <option>Yemen</option>
-                          <option>Zambia</option>
-                          <option>Zimbabwe</option>
-                        </select>
-                      </div>
-
-                      <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                        <textarea
-                          class="form-control"
-                          rows="7"
-                          cols="20"
-                          placeholder="Your Message"
-                          name="your-message"
-                        ></textarea>
-                      </div>
-
-                      <div class="form-group col-md-12 col-sm-12 col-xs-12 text-right">
-                        {" "}
-                        <a class="custom-button light">Submit Request</a>{" "}
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </body>
+      <div open={showModal} onClose={handleCloseModal}>
+        <h2>Registration Successful</h2>
+        <p>
+          Your registration was successful. Do you want to visit our website?
+        </p>
+        <div>
+          <button onClick={handleCloseModal} color="primary">
+            No
+          </button>
+          <button
+            onClick={() => {
+              navigate("/");
+              handleCloseModal();
+            }}
+            color="primary"
+          >
+            <a href="/">Yes</a>
+          </button>
+        </div>
+      </div>
+      <ToastContainer />
     </>
   );
 };
